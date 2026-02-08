@@ -1,0 +1,1501 @@
+patient_id,age,sex,insurance,diagnosis,visit_date,length_of_stay,discharge_date,readmitted_within_30d,readmission_date,comorbidity_score,discharge_type
+10001,69,Male,Private,Kidney Disease,2024-10-17,9,2024-10-26,0,,0,Home
+10002,32,Male,Public,Diabetes,2024-04-23,14,2024-05-07,0,,3,Rehab
+10003,89,Female,Public,Diabetes,2024-11-03,8,2024-11-11,0,,5,Rehab
+10004,78,Male,Public,Hypertension,2024-12-06,5,2024-12-11,1,2025-01-05,2,Home
+10005,38,Male,Private,Heart Failure,2024-07-16,6,2024-07-22,0,,2,Rehab
+10006,41,Female,Public,COPD,2024-11-16,11,2024-11-27,0,,0,Home
+10007,20,Female,Uninsured,Kidney Disease,2024-06-27,12,2024-07-09,0,,4,Home
+10008,39,Male,Public,Heart Failure,2024-08-06,10,2024-08-16,0,,4,Skilled Nursing
+10009,70,Female,Private,Kidney Disease,2024-10-03,1,2024-10-04,0,,5,Home
+10010,19,Male,Private,Diabetes,2024-01-16,10,2024-01-26,0,,2,Home
+10011,47,Male,Public,Hypertension,2024-03-01,12,2024-03-13,0,,0,Home
+10012,55,Male,Uninsured,Hypertension,2024-02-23,1,2024-02-24,1,2024-03-10,0,Home
+10013,19,Male,Public,COPD,2024-06-16,4,2024-06-20,0,,0,Skilled Nursing
+10014,81,Female,Public,Hypertension,2024-01-26,2,2024-01-28,0,,3,Home
+10015,77,Male,Private,Diabetes,2024-12-01,11,2024-12-12,1,2025-01-04,5,Home
+10016,38,Female,Public,COPD,2024-03-05,7,2024-03-12,0,,4,Home
+10017,50,Female,Public,Heart Failure,2024-04-09,2,2024-04-11,0,,4,Home
+10018,75,Female,Private,Hypertension,2024-03-14,10,2024-03-24,0,,3,Home
+10019,39,Female,Public,COPD,2024-07-10,2,2024-07-12,0,,1,Home
+10020,66,Male,Uninsured,Diabetes,2024-06-19,5,2024-06-24,1,2024-07-19,3,Skilled Nursing
+10021,76,Female,Private,Kidney Disease,2024-09-29,4,2024-10-03,0,,5,Skilled Nursing
+10022,59,Male,Public,Kidney Disease,2024-07-05,8,2024-07-13,0,,0,Home
+10023,77,Female,Private,Diabetes,2024-01-23,4,2024-01-27,0,,3,Home
+10024,32,Female,Public,Diabetes,2024-06-29,14,2024-07-13,0,,0,Home
+10025,79,Male,Public,Kidney Disease,2024-11-22,12,2024-12-04,0,,5,Skilled Nursing
+10026,79,Male,Public,COPD,2024-04-17,6,2024-04-23,0,,5,AMA
+10027,64,Male,Public,Kidney Disease,2024-11-30,5,2024-12-05,1,2024-12-16,2,Home
+10028,79,Female,Private,Diabetes,2024-06-10,11,2024-06-21,1,2024-07-10,0,Rehab
+10029,68,Female,Uninsured,Hypertension,2024-10-28,14,2024-11-11,0,,4,Home
+10030,72,Male,Public,Heart Failure,2024-07-24,2,2024-07-26,0,,3,Home
+10031,81,Male,Private,Hypertension,2024-03-18,11,2024-03-29,1,2024-04-27,5,Home
+10032,20,Male,Public,Hypertension,2024-01-16,13,2024-01-29,0,,0,Home
+10033,68,Male,Public,Diabetes,2024-11-22,12,2024-12-04,0,,1,Home
+10034,24,Female,Private,Kidney Disease,2024-04-05,14,2024-04-19,0,,2,Home
+10035,38,Male,Public,COPD,2024-05-26,8,2024-06-03,1,2024-06-24,1,Home
+10036,56,Male,Uninsured,Hypertension,2024-01-02,2,2024-01-04,1,2024-01-14,5,Home
+10037,35,Male,Private,Kidney Disease,2024-01-10,9,2024-01-19,0,,1,Home
+10038,21,Male,Uninsured,COPD,2024-05-04,9,2024-05-13,0,,1,Home
+10039,77,Female,Private,Hypertension,2024-03-21,3,2024-03-24,0,,2,Home
+10040,31,Male,Private,COPD,2024-05-19,4,2024-05-23,0,,2,Home
+10041,26,Female,Private,Kidney Disease,2024-11-21,8,2024-11-29,0,,2,Home
+10042,70,Male,Public,Heart Failure,2024-05-29,9,2024-06-07,0,,2,Home
+10043,19,Male,Public,Kidney Disease,2024-10-14,3,2024-10-17,0,,1,Home
+10044,77,Female,Private,Diabetes,2024-12-26,5,2024-12-31,1,2025-01-24,4,Home
+10045,88,Male,Private,COPD,2024-12-05,11,2024-12-16,0,,4,Home
+10046,61,Female,Public,Heart Failure,2024-05-08,8,2024-05-16,0,,2,Home
+10047,25,Female,Private,COPD,2024-08-26,3,2024-08-29,0,,3,Rehab
+10048,64,Male,Public,COPD,2024-02-27,7,2024-03-05,0,,0,Home
+10049,52,Female,Public,Hypertension,2024-07-16,11,2024-07-27,0,,5,Home
+10050,53,Female,Public,Diabetes,2024-07-29,8,2024-08-06,1,2024-08-18,3,Home
+10051,67,Female,Uninsured,COPD,2024-02-14,10,2024-02-24,1,2024-02-25,5,Home
+10052,21,Female,Private,Kidney Disease,2024-04-06,11,2024-04-17,0,,3,Home
+10053,19,Female,Uninsured,Kidney Disease,2024-10-05,14,2024-10-19,0,,3,Home
+10054,23,Female,Public,Hypertension,2024-01-23,3,2024-01-26,1,2024-02-19,4,Home
+10055,71,Female,Public,Diabetes,2024-11-30,2,2024-12-02,0,,0,Skilled Nursing
+10056,21,Female,Private,Diabetes,2024-02-13,10,2024-02-23,0,,3,Home
+10057,71,Male,Public,Kidney Disease,2024-01-27,13,2024-02-09,0,,2,Home
+10058,80,Male,Private,Heart Failure,2024-10-08,7,2024-10-15,1,2024-10-22,5,Home
+10059,35,Female,Private,Hypertension,2024-04-06,12,2024-04-18,0,,4,Skilled Nursing
+10060,61,Male,Private,Hypertension,2024-02-05,9,2024-02-14,0,,5,Rehab
+10061,51,Female,Public,Kidney Disease,2024-04-18,1,2024-04-19,1,2024-05-06,2,Home
+10062,79,Female,Public,Kidney Disease,2024-02-24,3,2024-02-27,0,,2,Rehab
+10063,31,Male,Public,Heart Failure,2024-07-10,5,2024-07-15,0,,3,Home
+10064,65,Female,Public,Heart Failure,2024-08-06,3,2024-08-09,0,,2,Rehab
+10065,32,Female,Private,Diabetes,2024-07-03,1,2024-07-04,1,2024-08-02,0,Rehab
+10066,89,Female,Public,Hypertension,2024-03-09,7,2024-03-16,0,,2,Home
+10067,79,Female,Private,Hypertension,2024-11-12,7,2024-11-19,1,2024-12-18,3,Rehab
+10068,57,Male,Public,Kidney Disease,2024-05-09,10,2024-05-19,0,,5,Home
+10069,70,Female,Public,Diabetes,2024-02-24,12,2024-03-07,0,,2,Home
+10070,41,Female,Public,Hypertension,2024-04-06,8,2024-04-14,1,2024-05-10,4,Home
+10071,43,Female,Public,Diabetes,2024-12-01,5,2024-12-06,0,,4,Rehab
+10072,77,Male,Private,Diabetes,2024-03-27,10,2024-04-06,0,,4,Home
+10073,58,Female,Public,Kidney Disease,2024-10-20,12,2024-11-01,0,,5,Home
+10074,46,Male,Public,Diabetes,2024-04-28,5,2024-05-03,0,,1,Rehab
+10075,32,Male,Public,Heart Failure,2024-07-26,5,2024-07-31,0,,4,Home
+10076,62,Female,Private,Heart Failure,2024-11-29,1,2024-11-30,0,,4,Home
+10077,82,Female,Public,COPD,2024-06-02,10,2024-06-12,0,,1,Home
+10078,88,Male,Public,Kidney Disease,2024-02-04,5,2024-02-09,1,2024-03-08,5,Home
+10079,26,Female,Private,COPD,2024-03-19,6,2024-03-25,0,,4,Home
+10080,18,Male,Private,Heart Failure,2024-03-07,13,2024-03-20,1,2024-03-30,3,Home
+10081,25,Male,Public,COPD,2024-12-08,12,2024-12-20,0,,5,AMA
+10082,80,Female,Public,Kidney Disease,2024-02-03,1,2024-02-04,0,,4,Rehab
+10083,28,Female,Private,Kidney Disease,2024-04-06,11,2024-04-17,0,,4,Home
+10084,25,Male,Private,Diabetes,2024-06-17,7,2024-06-24,0,,1,Home
+10085,52,Male,Private,Hypertension,2024-06-17,1,2024-06-18,0,,3,Home
+10086,52,Male,Private,Diabetes,2024-05-30,11,2024-06-10,1,2024-07-08,5,Home
+10087,50,Male,Public,Kidney Disease,2024-03-11,2,2024-03-13,1,2024-03-19,2,Home
+10088,22,Female,Public,Heart Failure,2024-01-03,2,2024-01-05,1,2024-01-22,0,Home
+10089,58,Female,Public,Heart Failure,2024-11-09,5,2024-11-14,0,,3,Skilled Nursing
+10090,45,Female,Public,Diabetes,2024-02-01,14,2024-02-15,1,2024-03-04,2,Home
+10091,24,Female,Private,Kidney Disease,2024-10-13,10,2024-10-23,0,,3,Home
+10092,89,Female,Public,Heart Failure,2024-03-22,13,2024-04-04,0,,2,Skilled Nursing
+10093,29,Male,Public,Kidney Disease,2024-02-12,7,2024-02-19,1,2024-02-24,2,Home
+10094,51,Female,Uninsured,Heart Failure,2024-04-14,1,2024-04-15,0,,3,Home
+10095,50,Female,Public,Kidney Disease,2024-01-01,10,2024-01-11,0,,1,Home
+10096,65,Female,Private,COPD,2024-03-01,1,2024-03-02,0,,3,Home
+10097,40,Female,Public,Kidney Disease,2024-09-26,1,2024-09-27,0,,3,Rehab
+10098,79,Female,Private,Kidney Disease,2024-06-28,6,2024-07-04,0,,2,Home
+10099,54,Male,Public,Diabetes,2024-08-11,2,2024-08-13,0,,0,Rehab
+10100,61,Male,Private,COPD,2024-01-06,1,2024-01-07,1,2024-01-25,2,Skilled Nursing
+10101,52,Male,Private,Hypertension,2024-04-12,6,2024-04-18,0,,4,Skilled Nursing
+10102,82,Female,Public,Diabetes,2024-01-10,14,2024-01-24,0,,3,Skilled Nursing
+10103,64,Male,Private,Hypertension,2024-03-11,2,2024-03-13,0,,5,Home
+10104,20,Male,Public,Heart Failure,2024-03-30,6,2024-04-05,0,,3,Home
+10105,18,Female,Private,Hypertension,2024-08-13,10,2024-08-23,0,,1,Home
+10106,22,Female,Public,Kidney Disease,2024-06-06,8,2024-06-14,0,,5,Home
+10107,31,Female,Public,Hypertension,2024-08-15,2,2024-08-17,1,2024-09-12,2,Skilled Nursing
+10108,44,Male,Public,Diabetes,2024-05-05,11,2024-05-16,1,2024-06-02,1,Home
+10109,26,Male,Private,Diabetes,2024-07-27,9,2024-08-05,1,2024-08-27,3,Skilled Nursing
+10110,32,Female,Private,Hypertension,2024-04-06,8,2024-04-14,1,2024-04-30,2,Rehab
+10111,59,Female,Private,Diabetes,2024-03-14,12,2024-03-26,0,,2,AMA
+10112,68,Male,Private,Diabetes,2024-04-24,10,2024-05-04,1,2024-05-12,4,Skilled Nursing
+10113,80,Male,Public,Hypertension,2024-07-09,1,2024-07-10,0,,4,Home
+10114,69,Female,Uninsured,COPD,2024-06-18,7,2024-06-25,0,,0,Home
+10115,21,Female,Public,COPD,2024-11-02,14,2024-11-16,0,,4,Home
+10116,40,Male,Public,Heart Failure,2024-07-22,13,2024-08-04,0,,5,Home
+10117,32,Female,Public,Diabetes,2024-02-25,10,2024-03-06,0,,2,Home
+10118,60,Male,Public,Hypertension,2024-07-26,6,2024-08-01,1,2024-08-25,4,Rehab
+10119,46,Male,Private,Diabetes,2024-02-10,14,2024-02-24,0,,0,Skilled Nursing
+10120,53,Male,Uninsured,Kidney Disease,2024-02-01,6,2024-02-07,0,,3,Home
+10121,30,Male,Public,Diabetes,2024-01-15,6,2024-01-21,0,,5,Home
+10122,49,Female,Public,Diabetes,2024-03-02,6,2024-03-08,0,,4,Home
+10123,88,Female,Private,COPD,2024-06-03,10,2024-06-13,0,,2,Home
+10124,76,Male,Private,Hypertension,2024-10-10,7,2024-10-17,0,,3,Home
+10125,45,Male,Public,Diabetes,2024-07-27,12,2024-08-08,0,,2,Home
+10126,83,Male,Public,COPD,2024-11-15,3,2024-11-18,0,,3,Home
+10127,59,Male,Public,Heart Failure,2024-07-05,14,2024-07-19,1,2024-08-01,5,Home
+10128,62,Male,Private,COPD,2024-05-09,6,2024-05-15,0,,2,Home
+10129,79,Female,Uninsured,COPD,2024-05-06,3,2024-05-09,0,,4,Home
+10130,74,Female,Private,COPD,2024-10-18,7,2024-10-25,0,,4,Home
+10131,23,Female,Private,Diabetes,2024-04-23,7,2024-04-30,0,,0,Home
+10132,45,Female,Private,Diabetes,2024-07-17,8,2024-07-25,0,,3,Home
+10133,45,Male,Public,Heart Failure,2024-01-13,2,2024-01-15,0,,0,Skilled Nursing
+10134,61,Male,Uninsured,Kidney Disease,2024-09-27,9,2024-10-06,0,,1,Home
+10135,47,Male,Private,Kidney Disease,2024-03-29,13,2024-04-11,1,2024-05-10,4,Home
+10136,79,Male,Public,Kidney Disease,2024-08-02,5,2024-08-07,0,,3,Rehab
+10137,79,Male,Private,Heart Failure,2024-10-04,9,2024-10-13,0,,5,Home
+10138,18,Female,Uninsured,Kidney Disease,2024-07-21,10,2024-07-31,0,,0,Skilled Nursing
+10139,44,Male,Public,Kidney Disease,2024-03-14,5,2024-03-19,1,2024-04-12,5,Home
+10140,79,Female,Public,COPD,2024-01-25,7,2024-02-01,1,2024-02-17,5,Home
+10141,20,Female,Private,Diabetes,2024-04-10,11,2024-04-21,0,,5,Home
+10142,87,Female,Uninsured,Diabetes,2024-06-24,9,2024-07-03,0,,0,Home
+10143,89,Female,Public,COPD,2024-04-26,4,2024-04-30,0,,1,Home
+10144,44,Male,Private,COPD,2024-06-14,2,2024-06-16,1,2024-06-27,0,Home
+10145,26,Female,Public,COPD,2024-02-10,9,2024-02-19,1,2024-02-25,2,Home
+10146,79,Female,Private,Diabetes,2024-12-09,13,2024-12-22,0,,4,Home
+10147,54,Female,Public,Kidney Disease,2024-04-29,2,2024-05-01,1,2024-05-28,0,Home
+10148,68,Male,Private,COPD,2024-04-06,3,2024-04-09,0,,0,Home
+10149,61,Male,Public,Heart Failure,2024-05-24,10,2024-06-03,0,,1,Home
+10150,41,Male,Public,COPD,2024-08-03,2,2024-08-05,0,,2,Home
+10151,76,Female,Private,Hypertension,2024-08-16,3,2024-08-19,0,,0,Home
+10152,49,Female,Private,COPD,2024-11-08,6,2024-11-14,1,2024-11-17,4,Rehab
+10153,69,Male,Private,Diabetes,2024-05-09,3,2024-05-12,0,,4,Home
+10154,79,Female,Public,COPD,2024-12-17,10,2024-12-27,0,,0,Home
+10155,75,Male,Private,Hypertension,2024-11-13,8,2024-11-21,1,2024-11-22,5,Home
+10156,69,Male,Public,Heart Failure,2024-05-16,11,2024-05-27,1,2024-06-14,5,Home
+10157,29,Female,Private,Kidney Disease,2024-11-19,6,2024-11-25,0,,2,Skilled Nursing
+10158,56,Female,Private,COPD,2024-12-02,7,2024-12-09,0,,4,Home
+10159,19,Female,Public,Hypertension,2024-09-29,1,2024-09-30,0,,5,Home
+10160,20,Female,Private,Hypertension,2024-04-26,3,2024-04-29,0,,4,Home
+10161,73,Male,Uninsured,Heart Failure,2024-11-01,3,2024-11-04,1,2024-11-09,2,Skilled Nursing
+10162,76,Male,Public,Diabetes,2024-04-03,2,2024-04-05,1,2024-04-18,2,Home
+10163,19,Male,Public,COPD,2024-06-16,7,2024-06-23,0,,5,AMA
+10164,19,Male,Public,Hypertension,2024-07-21,9,2024-07-30,0,,0,Skilled Nursing
+10165,71,Male,Public,Heart Failure,2024-12-06,4,2024-12-10,0,,3,Home
+10166,18,Female,Private,Kidney Disease,2024-05-28,12,2024-06-09,1,2024-06-19,1,Skilled Nursing
+10167,36,Male,Private,Hypertension,2024-07-01,5,2024-07-06,0,,3,Home
+10168,19,Male,Private,Heart Failure,2024-05-31,3,2024-06-03,0,,3,Rehab
+10169,70,Male,Public,Diabetes,2024-03-14,11,2024-03-25,0,,4,Home
+10170,61,Female,Private,Diabetes,2024-12-30,9,2025-01-08,0,,2,Home
+10171,49,Female,Public,Hypertension,2024-09-30,14,2024-10-14,0,,4,Home
+10172,87,Female,Uninsured,Hypertension,2024-02-11,4,2024-02-15,0,,5,Rehab
+10173,49,Female,Public,COPD,2024-07-30,5,2024-08-04,1,2024-08-09,1,Home
+10174,85,Male,Public,Heart Failure,2024-04-10,1,2024-04-11,1,2024-05-07,5,Home
+10175,72,Male,Private,Hypertension,2024-02-14,11,2024-02-25,1,2024-03-10,0,Home
+10176,73,Female,Public,COPD,2024-03-22,12,2024-04-03,0,,1,Home
+10177,34,Female,Public,COPD,2024-01-17,13,2024-01-30,0,,4,Home
+10178,55,Male,Private,Hypertension,2024-03-13,2,2024-03-15,0,,4,Home
+10179,41,Male,Private,Diabetes,2024-01-14,12,2024-01-26,0,,5,Home
+10180,86,Female,Uninsured,Heart Failure,2024-06-05,13,2024-06-18,1,2024-07-05,4,Home
+10181,87,Female,Public,Heart Failure,2024-08-10,9,2024-08-19,0,,4,Home
+10182,28,Female,Public,Diabetes,2024-05-11,2,2024-05-13,0,,3,Home
+10183,33,Female,Public,Hypertension,2024-12-03,5,2024-12-08,1,2024-12-09,0,Home
+10184,76,Male,Public,Heart Failure,2024-02-16,13,2024-02-29,1,2024-03-25,3,Skilled Nursing
+10185,87,Male,Public,Hypertension,2024-04-16,8,2024-04-24,0,,4,Home
+10186,20,Male,Private,Hypertension,2024-04-17,3,2024-04-20,0,,2,Skilled Nursing
+10187,37,Female,Private,COPD,2024-09-21,6,2024-09-27,0,,3,Rehab
+10188,76,Female,Private,Diabetes,2024-07-23,4,2024-07-27,0,,4,Home
+10189,53,Male,Public,Hypertension,2024-03-19,11,2024-03-30,0,,4,Home
+10190,36,Male,Public,Kidney Disease,2024-06-03,7,2024-06-10,0,,0,Rehab
+10191,84,Male,Public,Diabetes,2024-09-27,10,2024-10-07,1,2024-10-09,5,Home
+10192,36,Male,Private,Heart Failure,2024-09-03,14,2024-09-17,0,,1,Home
+10193,37,Female,Public,COPD,2024-01-19,13,2024-02-01,0,,3,Home
+10194,88,Male,Public,Heart Failure,2024-12-11,3,2024-12-14,0,,3,Home
+10195,69,Male,Public,Heart Failure,2024-01-26,6,2024-02-01,0,,3,Rehab
+10196,50,Male,Public,Diabetes,2024-08-04,12,2024-08-16,1,2024-08-23,4,Home
+10197,57,Male,Private,Heart Failure,2024-06-02,10,2024-06-12,0,,0,Home
+10198,56,Male,Public,Hypertension,2024-06-02,9,2024-06-11,0,,4,Home
+10199,18,Male,Private,Heart Failure,2024-06-22,11,2024-07-03,0,,4,Home
+10200,28,Male,Private,COPD,2024-04-01,10,2024-04-11,0,,5,Home
+10201,74,Female,Public,COPD,2024-12-03,1,2024-12-04,0,,2,Home
+10202,67,Female,Public,Kidney Disease,2024-06-29,3,2024-07-02,0,,0,Skilled Nursing
+10203,40,Female,Uninsured,COPD,2024-05-10,2,2024-05-12,0,,3,Home
+10204,48,Female,Public,Heart Failure,2024-10-24,8,2024-11-01,0,,1,Rehab
+10205,59,Male,Public,COPD,2024-10-01,7,2024-10-08,0,,3,Home
+10206,24,Female,Public,Diabetes,2024-09-29,2,2024-10-01,1,2024-10-11,4,Home
+10207,33,Female,Public,COPD,2024-03-16,6,2024-03-22,1,2024-04-11,0,Home
+10208,77,Male,Private,Hypertension,2024-06-25,3,2024-06-28,0,,0,Home
+10209,19,Male,Private,Diabetes,2024-07-02,8,2024-07-10,0,,0,Home
+10210,18,Female,Private,Kidney Disease,2024-11-14,10,2024-11-24,0,,2,Home
+10211,65,Female,Public,Hypertension,2024-05-10,13,2024-05-23,0,,3,Rehab
+10212,29,Male,Private,Heart Failure,2024-12-28,3,2024-12-31,0,,2,Rehab
+10213,86,Female,Private,Heart Failure,2024-02-18,10,2024-02-28,1,2024-03-06,5,Home
+10214,54,Male,Private,Heart Failure,2024-02-24,14,2024-03-09,1,2024-04-02,1,Home
+10215,49,Male,Uninsured,Hypertension,2024-06-02,9,2024-06-11,0,,5,Home
+10216,26,Male,Private,Hypertension,2024-12-20,1,2024-12-21,0,,4,Home
+10217,36,Male,Public,Hypertension,2024-07-18,5,2024-07-23,1,2024-08-08,2,Home
+10218,65,Female,Private,Diabetes,2024-11-03,3,2024-11-06,1,2024-11-11,2,Home
+10219,20,Male,Public,Diabetes,2024-12-21,6,2024-12-27,0,,5,Skilled Nursing
+10220,37,Male,Private,Heart Failure,2024-04-27,10,2024-05-07,0,,4,Rehab
+10221,41,Female,Private,COPD,2024-09-19,2,2024-09-21,0,,0,Home
+10222,71,Male,Public,Heart Failure,2024-02-15,9,2024-02-24,0,,4,Home
+10223,50,Female,Private,Kidney Disease,2024-10-28,6,2024-11-03,0,,3,Home
+10224,41,Female,Private,Diabetes,2024-12-21,7,2024-12-28,0,,5,Rehab
+10225,89,Female,Private,Hypertension,2024-07-07,5,2024-07-12,0,,4,Home
+10226,53,Male,Private,Diabetes,2024-11-05,9,2024-11-14,0,,0,Home
+10227,55,Female,Private,Hypertension,2024-11-13,1,2024-11-14,0,,4,Rehab
+10228,42,Female,Private,Kidney Disease,2024-05-08,5,2024-05-13,0,,2,Home
+10229,35,Male,Public,Kidney Disease,2024-02-18,11,2024-02-29,1,2024-03-29,1,Home
+10230,83,Female,Public,Diabetes,2024-01-25,10,2024-02-04,1,2024-03-03,2,Home
+10231,71,Female,Public,Hypertension,2024-09-22,11,2024-10-03,0,,1,Home
+10232,52,Female,Private,Kidney Disease,2024-04-27,6,2024-05-03,0,,4,Home
+10233,78,Female,Uninsured,Heart Failure,2024-05-23,7,2024-05-30,1,2024-06-11,3,Home
+10234,58,Female,Private,Heart Failure,2024-07-18,12,2024-07-30,0,,4,Home
+10235,50,Male,Private,Hypertension,2024-06-05,4,2024-06-09,0,,0,Home
+10236,85,Female,Public,Diabetes,2024-12-13,12,2024-12-25,0,,4,Rehab
+10237,50,Female,Private,Kidney Disease,2024-05-13,13,2024-05-26,0,,1,Home
+10238,31,Male,Private,Diabetes,2024-05-27,1,2024-05-28,0,,2,Home
+10239,38,Male,Public,Heart Failure,2024-12-01,11,2024-12-12,1,2024-12-29,3,Home
+10240,65,Male,Public,Kidney Disease,2024-03-11,8,2024-03-19,0,,4,Rehab
+10241,37,Female,Public,Diabetes,2024-08-20,10,2024-08-30,0,,4,Rehab
+10242,25,Male,Public,COPD,2024-11-29,4,2024-12-03,1,2024-12-19,2,Home
+10243,24,Female,Uninsured,Hypertension,2024-10-25,3,2024-10-28,0,,3,Home
+10244,84,Female,Private,Hypertension,2024-06-02,12,2024-06-14,0,,5,Rehab
+10245,34,Male,Private,COPD,2024-03-30,7,2024-04-06,0,,4,Home
+10246,50,Male,Private,Heart Failure,2024-11-29,12,2024-12-11,0,,4,Home
+10247,65,Female,Private,Kidney Disease,2024-07-17,2,2024-07-19,0,,5,Skilled Nursing
+10248,76,Male,Private,Hypertension,2024-06-09,8,2024-06-17,0,,1,Home
+10249,39,Female,Uninsured,COPD,2024-01-26,14,2024-02-09,0,,1,AMA
+10250,47,Male,Public,COPD,2024-04-30,6,2024-05-06,0,,0,Skilled Nursing
+10251,55,Male,Public,Heart Failure,2024-10-27,7,2024-11-03,0,,2,Home
+10252,68,Male,Private,Heart Failure,2024-07-30,14,2024-08-13,0,,3,Skilled Nursing
+10253,71,Female,Public,Diabetes,2024-03-03,5,2024-03-08,0,,4,Rehab
+10254,25,Male,Uninsured,Hypertension,2024-03-08,9,2024-03-17,0,,4,Home
+10255,44,Female,Public,Diabetes,2024-09-09,5,2024-09-14,0,,0,Home
+10256,44,Female,Private,COPD,2024-01-02,11,2024-01-13,1,2024-02-02,4,Home
+10257,38,Female,Public,Kidney Disease,2024-04-17,5,2024-04-22,0,,2,Home
+10258,47,Female,Private,Kidney Disease,2024-10-12,3,2024-10-15,0,,0,Rehab
+10259,45,Male,Private,Heart Failure,2024-02-18,11,2024-02-29,0,,2,Home
+10260,81,Female,Private,Kidney Disease,2024-05-19,1,2024-05-20,0,,0,Home
+10261,86,Female,Public,Kidney Disease,2024-08-05,2,2024-08-07,0,,4,Home
+10262,78,Male,Public,Kidney Disease,2024-02-13,8,2024-02-21,1,2024-03-18,0,Skilled Nursing
+10263,65,Female,Private,COPD,2024-09-25,1,2024-09-26,1,2024-10-12,1,Home
+10264,36,Male,Private,Kidney Disease,2024-03-18,7,2024-03-25,0,,3,Home
+10265,21,Female,Public,Kidney Disease,2024-08-03,14,2024-08-17,0,,4,Home
+10266,52,Male,Private,Kidney Disease,2024-04-07,14,2024-04-21,0,,5,Home
+10267,81,Female,Private,Diabetes,2024-08-23,5,2024-08-28,0,,3,Home
+10268,66,Male,Private,COPD,2024-10-08,3,2024-10-11,0,,4,Home
+10269,34,Female,Public,Heart Failure,2024-05-28,12,2024-06-09,0,,3,Home
+10270,61,Female,Private,Diabetes,2024-10-30,12,2024-11-11,1,2024-11-30,1,Home
+10271,47,Male,Private,Hypertension,2024-03-06,11,2024-03-17,0,,3,Skilled Nursing
+10272,63,Male,Private,COPD,2024-08-21,7,2024-08-28,0,,0,Home
+10273,23,Male,Uninsured,COPD,2024-03-27,9,2024-04-05,0,,3,Home
+10274,54,Male,Public,Hypertension,2024-03-19,2,2024-03-21,0,,4,Home
+10275,41,Female,Public,Hypertension,2024-07-23,8,2024-07-31,0,,5,Home
+10276,63,Female,Private,Hypertension,2024-10-05,9,2024-10-14,1,2024-11-09,5,Home
+10277,70,Male,Public,Heart Failure,2024-12-02,11,2024-12-13,0,,2,Home
+10278,77,Female,Private,Kidney Disease,2024-09-10,3,2024-09-13,0,,3,Home
+10279,80,Male,Public,COPD,2024-10-30,2,2024-11-01,0,,5,Home
+10280,49,Male,Uninsured,Kidney Disease,2024-05-09,7,2024-05-16,0,,3,Home
+10281,50,Female,Public,Kidney Disease,2024-03-24,5,2024-03-29,1,2024-04-13,5,Rehab
+10282,84,Female,Public,Hypertension,2024-10-02,5,2024-10-07,0,,3,Home
+10283,35,Female,Public,Heart Failure,2024-07-05,10,2024-07-15,0,,4,Home
+10284,42,Female,Private,Diabetes,2024-02-15,5,2024-02-20,1,2024-03-03,3,Home
+10285,71,Female,Uninsured,Heart Failure,2024-07-01,4,2024-07-05,0,,4,Home
+10286,75,Female,Private,Kidney Disease,2024-09-24,13,2024-10-07,0,,4,Home
+10287,84,Female,Public,Heart Failure,2024-10-22,5,2024-10-27,0,,2,Home
+10288,63,Male,Private,Hypertension,2024-11-17,13,2024-11-30,1,2024-12-21,5,Home
+10289,41,Male,Private,Diabetes,2024-04-09,4,2024-04-13,0,,0,Home
+10290,49,Male,Private,Hypertension,2024-03-18,13,2024-03-31,0,,4,Home
+10291,64,Male,Private,Diabetes,2024-09-28,6,2024-10-04,0,,5,Skilled Nursing
+10292,40,Male,Public,Kidney Disease,2024-12-04,4,2024-12-08,0,,1,Home
+10293,83,Female,Public,Diabetes,2024-06-10,2,2024-06-12,0,,3,Home
+10294,44,Male,Private,Diabetes,2024-02-13,9,2024-02-22,0,,1,Rehab
+10295,19,Male,Private,Diabetes,2024-08-25,2,2024-08-27,0,,3,Home
+10296,34,Male,Public,Heart Failure,2024-05-13,9,2024-05-22,0,,2,Home
+10297,50,Male,Private,Heart Failure,2024-07-10,10,2024-07-20,0,,4,Home
+10298,26,Male,Public,Kidney Disease,2024-12-21,6,2024-12-27,0,,0,Home
+10299,60,Male,Public,Diabetes,2024-10-04,9,2024-10-13,1,2024-10-23,4,Home
+10300,65,Male,Public,COPD,2024-01-18,9,2024-01-27,0,,3,Rehab
+10301,56,Female,Public,Kidney Disease,2024-01-12,3,2024-01-15,0,,0,Home
+10302,59,Female,Private,Diabetes,2024-06-28,1,2024-06-29,0,,4,Home
+10303,43,Male,Public,Diabetes,2024-05-02,1,2024-05-03,0,,0,Rehab
+10304,67,Female,Private,Heart Failure,2024-09-02,3,2024-09-05,1,2024-10-04,3,Rehab
+10305,42,Female,Private,Kidney Disease,2024-08-09,5,2024-08-14,1,2024-09-09,2,Home
+10306,41,Female,Public,Diabetes,2024-02-20,13,2024-03-04,1,2024-04-02,2,Home
+10307,30,Female,Private,Diabetes,2024-03-11,3,2024-03-14,0,,4,Home
+10308,77,Male,Public,Kidney Disease,2024-02-17,12,2024-02-29,0,,1,Home
+10309,24,Female,Public,COPD,2024-01-19,9,2024-01-28,0,,3,Home
+10310,74,Female,Public,Kidney Disease,2024-09-18,9,2024-09-27,0,,4,Home
+10311,53,Female,Uninsured,Kidney Disease,2024-03-24,3,2024-03-27,0,,4,Skilled Nursing
+10312,62,Male,Private,COPD,2024-06-03,3,2024-06-06,1,2024-06-28,2,Home
+10313,37,Male,Private,Kidney Disease,2024-02-22,12,2024-03-05,0,,0,Home
+10314,82,Male,Public,Diabetes,2024-04-16,14,2024-04-30,0,,3,Home
+10315,25,Male,Private,Kidney Disease,2024-12-22,5,2024-12-27,0,,0,Home
+10316,33,Male,Public,COPD,2024-10-30,2,2024-11-01,1,2024-11-03,5,Home
+10317,31,Male,Public,Hypertension,2024-05-14,6,2024-05-20,0,,5,Home
+10318,32,Male,Public,Kidney Disease,2024-03-09,7,2024-03-16,0,,3,Rehab
+10319,83,Female,Private,Heart Failure,2024-01-11,13,2024-01-24,1,2024-01-31,1,Home
+10320,49,Female,Private,Diabetes,2024-05-22,9,2024-05-31,0,,5,Home
+10321,80,Female,Private,Diabetes,2024-07-10,6,2024-07-16,0,,2,Home
+10322,68,Male,Private,Heart Failure,2024-03-09,3,2024-03-12,0,,1,Home
+10323,42,Male,Public,Heart Failure,2024-01-23,12,2024-02-04,0,,4,Home
+10324,75,Male,Private,Kidney Disease,2024-06-29,5,2024-07-04,1,2024-07-17,5,Rehab
+10325,80,Male,Private,Heart Failure,2024-10-19,4,2024-10-23,0,,2,Skilled Nursing
+10326,79,Male,Private,Hypertension,2024-01-09,5,2024-01-14,0,,4,Home
+10327,39,Female,Public,COPD,2024-09-27,8,2024-10-05,0,,1,Home
+10328,75,Female,Public,Heart Failure,2024-04-02,8,2024-04-10,0,,3,Rehab
+10329,75,Male,Private,Heart Failure,2024-01-17,6,2024-01-23,0,,4,Home
+10330,66,Male,Private,Hypertension,2024-06-02,1,2024-06-03,0,,0,Home
+10331,69,Male,Private,Diabetes,2024-11-23,8,2024-12-01,0,,3,Home
+10332,59,Male,Private,Diabetes,2024-05-28,8,2024-06-05,0,,3,Rehab
+10333,87,Female,Public,Kidney Disease,2024-09-23,2,2024-09-25,1,2024-09-28,1,Home
+10334,32,Male,Public,Hypertension,2024-11-23,4,2024-11-27,0,,1,Rehab
+10335,71,Male,Private,COPD,2024-04-15,12,2024-04-27,0,,2,Rehab
+10336,77,Male,Private,COPD,2024-02-04,2,2024-02-06,0,,2,Home
+10337,25,Male,Uninsured,Hypertension,2024-04-28,4,2024-05-02,1,2024-05-17,0,Rehab
+10338,70,Female,Public,COPD,2024-01-14,12,2024-01-26,0,,3,Rehab
+10339,77,Male,Public,Diabetes,2024-01-14,13,2024-01-27,0,,0,Home
+10340,22,Male,Private,COPD,2024-09-22,13,2024-10-05,0,,0,Home
+10341,85,Female,Public,COPD,2024-05-19,10,2024-05-29,0,,1,Home
+10342,23,Female,Private,Hypertension,2024-10-20,7,2024-10-27,0,,0,Home
+10343,64,Female,Public,Hypertension,2024-12-29,9,2025-01-07,1,2025-01-08,0,Home
+10344,72,Male,Uninsured,COPD,2024-04-28,14,2024-05-12,1,2024-06-07,4,Home
+10345,57,Male,Private,Heart Failure,2024-08-25,14,2024-09-08,1,2024-09-11,2,Home
+10346,69,Female,Private,Hypertension,2024-02-03,8,2024-02-11,0,,2,Skilled Nursing
+10347,33,Female,Private,Kidney Disease,2024-06-17,12,2024-06-29,0,,3,Home
+10348,30,Female,Private,Kidney Disease,2024-01-10,9,2024-01-19,0,,2,Home
+10349,47,Female,Private,Diabetes,2024-05-01,8,2024-05-09,1,2024-06-03,5,Home
+10350,36,Female,Private,COPD,2024-05-24,2,2024-05-26,0,,3,Home
+10351,34,Female,Public,Heart Failure,2024-08-10,7,2024-08-17,0,,4,Home
+10352,80,Male,Public,Diabetes,2024-09-13,2,2024-09-15,0,,2,Home
+10353,36,Male,Private,COPD,2024-09-24,13,2024-10-07,0,,4,Home
+10354,75,Male,Uninsured,Hypertension,2024-12-24,12,2025-01-05,0,,2,Rehab
+10355,72,Female,Private,Kidney Disease,2024-01-04,11,2024-01-15,0,,2,Rehab
+10356,79,Female,Uninsured,Heart Failure,2024-12-19,2,2024-12-21,0,,4,Home
+10357,40,Female,Private,Kidney Disease,2024-04-15,4,2024-04-19,1,2024-04-29,0,Rehab
+10358,26,Female,Public,Hypertension,2024-03-25,1,2024-03-26,0,,0,Rehab
+10359,29,Female,Public,COPD,2024-08-01,5,2024-08-06,0,,0,Home
+10360,18,Female,Public,Hypertension,2024-04-30,6,2024-05-06,0,,5,Skilled Nursing
+10361,75,Male,Uninsured,Hypertension,2024-05-11,9,2024-05-20,0,,0,Rehab
+10362,18,Male,Private,Kidney Disease,2024-12-03,10,2024-12-13,1,2025-01-09,2,Home
+10363,51,Female,Uninsured,Heart Failure,2024-07-15,8,2024-07-23,0,,1,Home
+10364,65,Male,Private,Hypertension,2024-01-19,2,2024-01-21,0,,4,Home
+10365,18,Female,Private,Kidney Disease,2024-05-09,1,2024-05-10,0,,1,Home
+10366,33,Male,Private,Heart Failure,2024-01-12,2,2024-01-14,1,2024-02-10,5,Rehab
+10367,78,Female,Public,COPD,2024-03-21,7,2024-03-28,0,,1,Home
+10368,81,Female,Private,COPD,2024-11-25,4,2024-11-29,0,,3,Rehab
+10369,80,Male,Public,Diabetes,2024-12-19,10,2024-12-29,0,,0,Rehab
+10370,86,Male,Public,Kidney Disease,2024-09-18,5,2024-09-23,0,,5,Home
+10371,39,Female,Public,Heart Failure,2024-05-04,12,2024-05-16,0,,2,Home
+10372,84,Female,Public,Hypertension,2024-11-02,7,2024-11-09,1,2024-11-24,0,Home
+10373,43,Male,Private,COPD,2024-09-23,3,2024-09-26,0,,0,Home
+10374,33,Male,Private,Heart Failure,2024-05-19,10,2024-05-29,1,2024-06-20,1,Home
+10375,68,Female,Private,Kidney Disease,2024-11-24,2,2024-11-26,0,,3,Home
+10376,74,Male,Private,Diabetes,2024-01-02,13,2024-01-15,0,,0,Home
+10377,46,Female,Private,COPD,2024-01-08,7,2024-01-15,0,,4,Skilled Nursing
+10378,86,Female,Private,Heart Failure,2024-09-06,5,2024-09-11,1,2024-10-08,4,Home
+10379,64,Female,Private,Heart Failure,2024-05-18,14,2024-06-01,0,,0,Home
+10380,79,Female,Uninsured,Heart Failure,2024-05-03,1,2024-05-04,1,2024-05-10,1,Home
+10381,86,Male,Public,Kidney Disease,2024-11-04,1,2024-11-05,1,2024-11-25,1,Rehab
+10382,33,Male,Private,Kidney Disease,2024-08-15,9,2024-08-24,1,2024-09-08,2,Home
+10383,65,Male,Public,Kidney Disease,2024-01-10,5,2024-01-15,0,,5,Home
+10384,56,Male,Private,Hypertension,2024-07-30,1,2024-07-31,0,,5,Skilled Nursing
+10385,50,Male,Private,Heart Failure,2024-04-21,7,2024-04-28,0,,5,Home
+10386,40,Male,Public,COPD,2024-01-08,9,2024-01-17,0,,3,Home
+10387,27,Male,Public,Kidney Disease,2024-10-18,11,2024-10-29,0,,1,Home
+10388,86,Female,Private,Kidney Disease,2024-12-27,1,2024-12-28,0,,2,Rehab
+10389,51,Male,Uninsured,Heart Failure,2024-09-09,10,2024-09-19,0,,4,Home
+10390,69,Male,Public,Kidney Disease,2024-01-14,14,2024-01-28,0,,5,Home
+10391,27,Female,Public,Hypertension,2024-08-27,13,2024-09-09,0,,4,Home
+10392,36,Male,Public,Hypertension,2024-08-29,4,2024-09-02,0,,4,AMA
+10393,75,Male,Public,Kidney Disease,2024-12-07,14,2024-12-21,0,,0,Home
+10394,18,Female,Private,Heart Failure,2024-05-28,3,2024-05-31,0,,3,Home
+10395,86,Male,Private,Heart Failure,2024-08-23,5,2024-08-28,0,,2,Skilled Nursing
+10396,21,Male,Private,Heart Failure,2024-11-01,7,2024-11-08,0,,3,Home
+10397,33,Male,Public,Diabetes,2024-06-15,8,2024-06-23,0,,0,AMA
+10398,41,Female,Public,Kidney Disease,2024-01-20,13,2024-02-02,0,,2,Skilled Nursing
+10399,19,Male,Private,Heart Failure,2024-08-03,2,2024-08-05,0,,2,Skilled Nursing
+10400,49,Male,Uninsured,Hypertension,2024-12-08,7,2024-12-15,0,,1,Home
+10401,41,Female,Uninsured,COPD,2024-05-14,14,2024-05-28,0,,3,Home
+10402,29,Male,Public,COPD,2024-05-08,14,2024-05-22,0,,3,Rehab
+10403,67,Female,Public,Heart Failure,2024-10-20,1,2024-10-21,0,,1,AMA
+10404,52,Female,Public,COPD,2024-09-02,7,2024-09-09,0,,4,Home
+10405,50,Male,Private,COPD,2024-07-07,8,2024-07-15,0,,0,Rehab
+10406,50,Female,Public,Diabetes,2024-02-13,2,2024-02-15,0,,3,Home
+10407,78,Female,Private,Hypertension,2024-03-26,9,2024-04-04,0,,1,Home
+10408,68,Male,Public,Hypertension,2024-02-13,1,2024-02-14,0,,2,Home
+10409,60,Female,Private,Diabetes,2024-11-25,13,2024-12-08,0,,5,Rehab
+10410,29,Female,Public,Diabetes,2024-05-24,6,2024-05-30,0,,1,Home
+10411,84,Male,Uninsured,COPD,2024-02-20,1,2024-02-21,0,,5,Home
+10412,82,Male,Private,Kidney Disease,2024-08-29,3,2024-09-01,0,,4,AMA
+10413,50,Male,Public,COPD,2024-10-20,11,2024-10-31,1,2024-11-24,0,Home
+10414,57,Female,Uninsured,Diabetes,2024-02-20,6,2024-02-26,0,,5,Home
+10415,60,Male,Public,Hypertension,2024-09-22,3,2024-09-25,0,,4,Home
+10416,61,Female,Public,COPD,2024-04-29,8,2024-05-07,0,,5,Home
+10417,46,Female,Public,Kidney Disease,2024-07-18,5,2024-07-23,0,,2,Home
+10418,30,Female,Private,COPD,2024-09-04,2,2024-09-06,1,2024-09-27,2,Skilled Nursing
+10419,29,Female,Private,Heart Failure,2024-03-10,4,2024-03-14,0,,2,Home
+10420,63,Female,Private,COPD,2024-12-06,9,2024-12-15,0,,2,Rehab
+10421,19,Female,Public,Diabetes,2024-02-26,4,2024-03-01,1,2024-03-08,1,Home
+10422,52,Female,Private,Hypertension,2024-02-08,10,2024-02-18,0,,2,Home
+10423,25,Male,Public,Hypertension,2024-10-15,10,2024-10-25,0,,2,Home
+10424,43,Male,Public,Diabetes,2024-01-18,8,2024-01-26,1,2024-02-20,1,Home
+10425,51,Female,Public,Heart Failure,2024-08-07,5,2024-08-12,0,,2,Home
+10426,24,Female,Public,Diabetes,2024-11-08,11,2024-11-19,0,,4,Home
+10427,85,Male,Uninsured,COPD,2024-08-31,11,2024-09-11,0,,4,Home
+10428,75,Female,Private,Diabetes,2024-12-17,10,2024-12-27,0,,3,Home
+10429,46,Male,Public,Diabetes,2024-10-30,13,2024-11-12,0,,4,Home
+10430,53,Male,Public,Heart Failure,2024-10-24,13,2024-11-06,1,2024-12-05,0,Home
+10431,38,Male,Public,COPD,2024-10-09,14,2024-10-23,0,,0,Skilled Nursing
+10432,53,Female,Uninsured,Kidney Disease,2024-03-14,1,2024-03-15,0,,0,Home
+10433,27,Female,Private,Kidney Disease,2024-04-19,7,2024-04-26,1,2024-05-25,1,Home
+10434,41,Male,Private,Hypertension,2024-06-28,3,2024-07-01,0,,4,Skilled Nursing
+10435,81,Male,Public,Diabetes,2024-02-01,10,2024-02-11,0,,0,Rehab
+10436,66,Male,Private,Hypertension,2024-08-21,8,2024-08-29,0,,3,Home
+10437,53,Male,Public,Heart Failure,2024-10-08,14,2024-10-22,1,2024-11-12,1,Home
+10438,41,Male,Public,Kidney Disease,2024-01-25,12,2024-02-06,1,2024-03-04,3,Home
+10439,40,Female,Private,Diabetes,2024-11-26,3,2024-11-29,0,,4,Home
+10440,79,Male,Public,Heart Failure,2024-10-05,1,2024-10-06,0,,2,Rehab
+10441,54,Female,Private,Heart Failure,2024-08-13,5,2024-08-18,0,,3,Rehab
+10442,29,Male,Public,Diabetes,2024-02-26,2,2024-02-28,1,2024-03-04,2,Home
+10443,72,Female,Public,Heart Failure,2024-06-28,11,2024-07-09,0,,1,AMA
+10444,30,Female,Uninsured,Diabetes,2024-08-19,4,2024-08-23,0,,3,Home
+10445,40,Female,Private,Diabetes,2024-12-08,1,2024-12-09,1,2024-12-13,3,Home
+10446,47,Female,Public,COPD,2024-10-13,9,2024-10-22,0,,5,Rehab
+10447,34,Female,Public,Hypertension,2024-03-04,6,2024-03-10,0,,1,Home
+10448,79,Female,Public,Heart Failure,2024-08-19,8,2024-08-27,0,,1,Rehab
+10449,30,Male,Public,Heart Failure,2024-10-15,11,2024-10-26,0,,0,Skilled Nursing
+10450,76,Female,Private,COPD,2024-07-31,4,2024-08-04,0,,4,Home
+10451,36,Male,Private,COPD,2024-09-14,9,2024-09-23,1,2024-10-15,3,Home
+10452,66,Female,Private,COPD,2024-01-18,2,2024-01-20,0,,3,Home
+10453,29,Female,Public,Kidney Disease,2024-06-23,9,2024-07-02,0,,1,Home
+10454,78,Male,Private,Kidney Disease,2024-08-16,12,2024-08-28,0,,1,Home
+10455,36,Female,Private,Kidney Disease,2024-08-13,5,2024-08-18,0,,4,Home
+10456,26,Male,Uninsured,Diabetes,2024-03-24,13,2024-04-06,0,,1,Rehab
+10457,88,Male,Private,Heart Failure,2024-10-17,6,2024-10-23,0,,2,Home
+10458,45,Male,Uninsured,Hypertension,2024-09-02,3,2024-09-05,1,2024-09-23,2,Home
+10459,69,Male,Public,Diabetes,2024-04-19,4,2024-04-23,0,,5,Home
+10460,33,Female,Public,Heart Failure,2024-09-10,6,2024-09-16,0,,2,Rehab
+10461,86,Female,Private,Heart Failure,2024-03-28,7,2024-04-04,0,,2,Home
+10462,29,Male,Private,COPD,2024-03-12,1,2024-03-13,1,2024-03-16,4,Home
+10463,42,Female,Public,COPD,2024-01-30,7,2024-02-06,0,,3,Rehab
+10464,69,Female,Public,Diabetes,2024-06-20,1,2024-06-21,0,,2,Home
+10465,70,Male,Public,COPD,2024-11-04,5,2024-11-09,0,,5,Home
+10466,40,Female,Private,Heart Failure,2024-12-08,6,2024-12-14,1,2024-12-31,1,Skilled Nursing
+10467,33,Male,Public,COPD,2024-06-25,13,2024-07-08,0,,2,Home
+10468,74,Male,Public,Kidney Disease,2024-05-18,2,2024-05-20,0,,5,AMA
+10469,56,Female,Public,COPD,2024-07-12,13,2024-07-25,0,,4,Home
+10470,70,Female,Public,Heart Failure,2024-07-04,10,2024-07-14,0,,1,Home
+10471,59,Female,Public,Diabetes,2024-08-05,9,2024-08-14,0,,5,Skilled Nursing
+10472,75,Male,Public,Hypertension,2024-06-12,14,2024-06-26,0,,2,Home
+10473,56,Male,Private,COPD,2024-06-09,10,2024-06-19,0,,3,Rehab
+10474,31,Female,Public,Heart Failure,2024-01-13,6,2024-01-19,1,2024-02-06,1,Rehab
+10475,22,Female,Private,Hypertension,2024-10-22,7,2024-10-29,1,2024-11-16,1,Skilled Nursing
+10476,52,Female,Private,Hypertension,2024-03-29,14,2024-04-12,0,,3,AMA
+10477,35,Female,Private,Kidney Disease,2024-11-19,10,2024-11-29,1,2024-12-23,1,Home
+10478,26,Male,Private,Hypertension,2024-02-11,8,2024-02-19,0,,2,Rehab
+10479,75,Female,Private,Heart Failure,2024-07-28,11,2024-08-08,0,,1,Home
+10480,34,Male,Private,Heart Failure,2024-08-16,13,2024-08-29,0,,2,Home
+10481,24,Male,Public,COPD,2024-12-15,10,2024-12-25,0,,3,Rehab
+10482,63,Female,Uninsured,COPD,2024-10-01,1,2024-10-02,0,,0,Home
+10483,30,Female,Private,COPD,2024-10-05,14,2024-10-19,0,,3,Home
+10484,57,Female,Uninsured,Hypertension,2024-09-07,8,2024-09-15,0,,2,Home
+10485,59,Male,Public,Hypertension,2024-11-05,4,2024-11-09,0,,4,Home
+10486,26,Female,Private,Kidney Disease,2024-07-26,10,2024-08-05,0,,3,AMA
+10487,67,Female,Private,COPD,2024-11-16,8,2024-11-24,0,,4,Home
+10488,44,Male,Public,Diabetes,2024-05-19,13,2024-06-01,1,2024-06-25,4,Home
+10489,83,Female,Public,Kidney Disease,2024-10-06,6,2024-10-12,0,,2,Skilled Nursing
+10490,22,Male,Public,Diabetes,2024-02-03,11,2024-02-14,0,,2,Home
+10491,46,Female,Private,Hypertension,2024-11-04,9,2024-11-13,0,,0,Home
+10492,54,Male,Private,Kidney Disease,2024-01-18,11,2024-01-29,0,,5,Home
+10493,55,Female,Private,Kidney Disease,2024-02-26,4,2024-03-01,1,2024-03-03,1,Home
+10494,25,Female,Private,Heart Failure,2024-04-21,2,2024-04-23,0,,3,Home
+10495,82,Male,Private,Hypertension,2024-01-05,14,2024-01-19,0,,2,Rehab
+10496,34,Male,Private,Hypertension,2024-06-30,2,2024-07-02,0,,3,Home
+10497,88,Female,Public,Kidney Disease,2024-01-13,5,2024-01-18,0,,5,Skilled Nursing
+10498,62,Male,Uninsured,Hypertension,2024-12-04,10,2024-12-14,1,2024-12-27,5,Rehab
+10499,21,Male,Private,Kidney Disease,2024-10-11,9,2024-10-20,0,,4,Home
+10500,53,Male,Uninsured,Heart Failure,2024-09-15,12,2024-09-27,0,,1,Home
+10501,87,Male,Private,Kidney Disease,2024-03-30,3,2024-04-02,0,,0,Home
+10502,48,Female,Public,Hypertension,2024-04-13,8,2024-04-21,0,,3,Home
+10503,36,Female,Private,Hypertension,2024-07-04,4,2024-07-08,0,,1,Skilled Nursing
+10504,78,Male,Public,Kidney Disease,2024-09-06,6,2024-09-12,1,2024-10-04,0,Home
+10505,71,Male,Uninsured,Kidney Disease,2024-09-11,10,2024-09-21,0,,3,Home
+10506,56,Male,Public,Kidney Disease,2024-03-16,6,2024-03-22,0,,1,Home
+10507,36,Male,Private,COPD,2024-04-17,3,2024-04-20,1,2024-05-05,2,Home
+10508,56,Female,Public,Hypertension,2024-06-04,14,2024-06-18,0,,3,Home
+10509,84,Female,Private,Hypertension,2024-03-22,5,2024-03-27,0,,1,Home
+10510,62,Male,Public,COPD,2024-03-17,12,2024-03-29,0,,5,Home
+10511,30,Male,Public,Kidney Disease,2024-09-14,3,2024-09-17,0,,0,Home
+10512,75,Male,Private,Heart Failure,2024-05-06,11,2024-05-17,0,,1,Home
+10513,37,Female,Public,Kidney Disease,2024-10-08,11,2024-10-19,0,,2,Rehab
+10514,89,Male,Public,Kidney Disease,2024-03-28,1,2024-03-29,0,,3,Home
+10515,78,Female,Private,COPD,2024-07-22,7,2024-07-29,0,,3,Home
+10516,56,Male,Public,Hypertension,2024-01-16,4,2024-01-20,1,2024-01-25,3,Home
+10517,18,Female,Private,Kidney Disease,2024-05-30,14,2024-06-13,0,,2,Home
+10518,20,Male,Public,Hypertension,2024-09-10,7,2024-09-17,0,,0,Skilled Nursing
+10519,79,Female,Public,Diabetes,2024-07-06,3,2024-07-09,0,,3,Home
+10520,80,Male,Public,Hypertension,2024-11-24,12,2024-12-06,1,2024-12-09,0,Home
+10521,42,Male,Public,Heart Failure,2024-02-01,11,2024-02-12,1,2024-02-17,1,Skilled Nursing
+10522,73,Male,Public,Heart Failure,2024-09-27,5,2024-10-02,0,,5,Rehab
+10523,50,Female,Private,Kidney Disease,2024-01-05,5,2024-01-10,0,,5,Home
+10524,55,Male,Public,Hypertension,2024-11-25,13,2024-12-08,0,,0,Home
+10525,23,Female,Private,Kidney Disease,2024-11-03,2,2024-11-05,0,,0,Rehab
+10526,75,Female,Public,COPD,2024-11-28,11,2024-12-09,1,2024-12-14,5,Home
+10527,61,Male,Private,Heart Failure,2024-06-17,10,2024-06-27,0,,3,Rehab
+10528,62,Male,Private,Kidney Disease,2024-06-29,12,2024-07-11,0,,4,Rehab
+10529,49,Male,Public,COPD,2024-06-26,2,2024-06-28,0,,4,Rehab
+10530,62,Female,Private,Kidney Disease,2024-05-22,4,2024-05-26,0,,2,Home
+10531,78,Male,Public,Hypertension,2024-12-27,4,2024-12-31,1,2025-01-05,5,Rehab
+10532,64,Female,Private,Hypertension,2024-09-04,4,2024-09-08,0,,5,Home
+10533,38,Female,Private,Hypertension,2024-05-06,6,2024-05-12,0,,2,Rehab
+10534,53,Male,Public,Hypertension,2024-09-19,2,2024-09-21,0,,4,Home
+10535,36,Male,Private,Diabetes,2024-02-09,6,2024-02-15,0,,1,Home
+10536,37,Male,Private,COPD,2024-12-20,7,2024-12-27,0,,3,Home
+10537,74,Male,Public,COPD,2024-09-11,11,2024-09-22,0,,3,Home
+10538,35,Male,Private,Hypertension,2024-05-22,10,2024-06-01,0,,1,Home
+10539,64,Male,Public,Diabetes,2024-08-27,3,2024-08-30,0,,1,Skilled Nursing
+10540,66,Female,Private,Hypertension,2024-08-15,11,2024-08-26,1,2024-08-29,4,Home
+10541,31,Female,Private,Diabetes,2024-12-06,12,2024-12-18,1,2024-12-21,2,Rehab
+10542,32,Female,Public,Hypertension,2024-07-16,8,2024-07-24,1,2024-08-13,1,Home
+10543,48,Male,Private,Heart Failure,2024-03-05,2,2024-03-07,0,,2,Home
+10544,18,Female,Private,Heart Failure,2024-01-11,11,2024-01-22,0,,0,Home
+10545,71,Female,Private,Kidney Disease,2024-04-17,8,2024-04-25,0,,3,Home
+10546,20,Female,Private,Hypertension,2024-01-26,13,2024-02-08,1,2024-03-02,4,Skilled Nursing
+10547,33,Female,Public,COPD,2024-05-30,11,2024-06-10,1,2024-07-08,3,Home
+10548,74,Female,Private,Kidney Disease,2024-08-08,5,2024-08-13,1,2024-09-10,4,Home
+10549,29,Male,Public,Heart Failure,2024-12-06,2,2024-12-08,0,,0,Home
+10550,33,Male,Public,Hypertension,2024-08-24,7,2024-08-31,1,2024-09-28,3,Skilled Nursing
+10551,89,Female,Private,Kidney Disease,2024-08-24,14,2024-09-07,0,,0,Home
+10552,41,Female,Uninsured,Hypertension,2024-08-06,2,2024-08-08,0,,4,Home
+10553,45,Female,Private,Heart Failure,2024-05-30,14,2024-06-13,0,,1,Home
+10554,25,Male,Uninsured,Kidney Disease,2024-05-02,6,2024-05-08,0,,3,Home
+10555,53,Male,Private,Heart Failure,2024-05-23,10,2024-06-02,0,,0,Home
+10556,25,Female,Public,Diabetes,2024-07-07,3,2024-07-10,0,,5,Skilled Nursing
+10557,75,Male,Public,Heart Failure,2024-09-11,9,2024-09-20,0,,3,Home
+10558,77,Male,Private,Hypertension,2024-03-08,3,2024-03-11,0,,3,Home
+10559,67,Female,Public,COPD,2024-04-13,11,2024-04-24,1,2024-05-12,3,Home
+10560,45,Male,Public,Heart Failure,2024-12-01,12,2024-12-13,0,,2,Home
+10561,58,Male,Private,COPD,2024-06-07,12,2024-06-19,0,,0,Home
+10562,81,Female,Private,Diabetes,2024-11-04,3,2024-11-07,1,2024-12-03,0,AMA
+10563,44,Male,Public,Kidney Disease,2024-12-27,5,2025-01-01,1,2025-01-21,3,Rehab
+10564,80,Male,Public,Kidney Disease,2024-10-26,7,2024-11-02,0,,1,Skilled Nursing
+10565,34,Female,Uninsured,COPD,2024-03-30,14,2024-04-13,0,,3,Rehab
+10566,50,Male,Public,Kidney Disease,2024-12-22,8,2024-12-30,0,,2,Home
+10567,46,Male,Uninsured,Heart Failure,2024-09-12,12,2024-09-24,0,,4,Home
+10568,30,Female,Public,COPD,2024-12-18,11,2024-12-29,0,,2,Home
+10569,63,Female,Private,Hypertension,2024-08-07,7,2024-08-14,1,2024-08-18,1,Home
+10570,52,Female,Private,Heart Failure,2024-01-09,9,2024-01-18,0,,3,Home
+10571,23,Male,Public,Heart Failure,2024-01-12,5,2024-01-17,1,2024-01-18,0,Home
+10572,86,Female,Public,Heart Failure,2024-11-20,10,2024-11-30,1,2024-12-26,5,Home
+10573,64,Male,Private,Hypertension,2024-08-31,11,2024-09-11,1,2024-09-27,3,Skilled Nursing
+10574,42,Female,Private,Diabetes,2024-06-30,3,2024-07-03,0,,1,Rehab
+10575,83,Male,Uninsured,Kidney Disease,2024-10-10,6,2024-10-16,1,2024-10-24,0,Skilled Nursing
+10576,27,Female,Public,COPD,2024-11-07,5,2024-11-12,0,,2,Home
+10577,73,Female,Private,Diabetes,2024-04-08,12,2024-04-20,0,,4,Home
+10578,47,Female,Public,COPD,2024-07-15,4,2024-07-19,0,,4,Home
+10579,22,Female,Private,Kidney Disease,2024-08-13,12,2024-08-25,0,,3,Home
+10580,50,Male,Private,Hypertension,2024-11-28,2,2024-11-30,0,,2,Home
+10581,82,Female,Private,Heart Failure,2024-04-12,7,2024-04-19,0,,5,Home
+10582,35,Female,Private,Heart Failure,2024-04-15,13,2024-04-28,0,,5,Home
+10583,66,Male,Public,Hypertension,2024-12-30,5,2025-01-04,0,,1,Home
+10584,28,Female,Private,Diabetes,2024-02-27,4,2024-03-02,0,,4,Home
+10585,43,Male,Public,Diabetes,2024-03-18,12,2024-03-30,0,,2,Home
+10586,80,Female,Public,COPD,2024-03-15,14,2024-03-29,1,2024-04-15,3,Home
+10587,76,Female,Private,Hypertension,2024-02-11,8,2024-02-19,0,,0,Home
+10588,44,Female,Public,Diabetes,2024-11-19,9,2024-11-28,0,,3,Home
+10589,66,Male,Public,Hypertension,2024-06-29,9,2024-07-08,0,,3,Home
+10590,50,Female,Public,Kidney Disease,2024-02-02,3,2024-02-05,0,,2,Home
+10591,18,Female,Private,Heart Failure,2024-03-11,3,2024-03-14,0,,4,Rehab
+10592,38,Female,Public,Heart Failure,2024-02-25,5,2024-03-01,0,,2,Rehab
+10593,72,Male,Public,Heart Failure,2024-04-14,5,2024-04-19,1,2024-04-27,0,Home
+10594,23,Male,Private,Hypertension,2024-07-18,10,2024-07-28,0,,2,Home
+10595,86,Female,Private,Hypertension,2024-04-10,2,2024-04-12,0,,1,Home
+10596,22,Male,Public,COPD,2024-09-12,1,2024-09-13,0,,3,Home
+10597,20,Female,Public,Heart Failure,2024-11-02,8,2024-11-10,1,2024-11-17,4,Home
+10598,70,Female,Private,COPD,2024-03-14,3,2024-03-17,0,,5,Home
+10599,40,Female,Public,Heart Failure,2024-06-19,1,2024-06-20,0,,0,Home
+10600,70,Female,Private,COPD,2024-05-22,1,2024-05-23,0,,5,Home
+10601,54,Female,Public,COPD,2024-06-14,11,2024-06-25,0,,3,Rehab
+10602,34,Female,Private,Kidney Disease,2024-09-17,2,2024-09-19,0,,2,Home
+10603,18,Female,Public,COPD,2024-08-08,6,2024-08-14,0,,5,Rehab
+10604,68,Male,Private,Hypertension,2024-03-23,6,2024-03-29,0,,1,Home
+10605,62,Male,Private,COPD,2024-06-30,14,2024-07-14,0,,2,Home
+10606,21,Male,Private,Heart Failure,2024-11-02,3,2024-11-05,0,,3,AMA
+10607,79,Male,Private,COPD,2024-01-10,12,2024-01-22,0,,5,Skilled Nursing
+10608,82,Male,Public,Diabetes,2024-01-04,4,2024-01-08,0,,0,Home
+10609,49,Male,Private,Heart Failure,2024-12-16,12,2024-12-28,0,,5,Home
+10610,51,Male,Public,Diabetes,2024-12-01,13,2024-12-14,1,2025-01-08,5,Home
+10611,89,Female,Private,Heart Failure,2024-10-18,2,2024-10-20,1,2024-10-28,4,Home
+10612,56,Female,Private,Hypertension,2024-10-07,2,2024-10-09,0,,5,Rehab
+10613,43,Female,Private,Hypertension,2024-08-02,7,2024-08-09,0,,3,Skilled Nursing
+10614,51,Female,Private,Hypertension,2024-04-07,13,2024-04-20,0,,0,Home
+10615,71,Male,Private,Diabetes,2024-04-10,1,2024-04-11,0,,3,Home
+10616,20,Male,Private,Kidney Disease,2024-01-09,7,2024-01-16,0,,1,Home
+10617,67,Female,Public,Heart Failure,2024-03-01,14,2024-03-15,1,2024-04-05,2,Home
+10618,29,Female,Private,Hypertension,2024-11-04,12,2024-11-16,0,,5,Skilled Nursing
+10619,82,Male,Public,Heart Failure,2024-05-25,14,2024-06-08,0,,4,Skilled Nursing
+10620,71,Female,Public,Diabetes,2024-03-03,12,2024-03-15,0,,0,Home
+10621,22,Female,Private,Kidney Disease,2024-04-30,14,2024-05-14,0,,4,Home
+10622,74,Female,Public,Diabetes,2024-08-13,1,2024-08-14,0,,4,Home
+10623,34,Female,Uninsured,Heart Failure,2024-04-14,14,2024-04-28,0,,4,Home
+10624,64,Male,Public,Kidney Disease,2024-09-16,6,2024-09-22,0,,5,Rehab
+10625,40,Female,Public,Kidney Disease,2024-12-14,3,2024-12-17,1,2025-01-10,0,Home
+10626,31,Female,Private,Diabetes,2024-09-11,8,2024-09-19,0,,0,Home
+10627,83,Male,Public,Hypertension,2024-07-25,6,2024-07-31,1,2024-08-27,4,Home
+10628,68,Male,Public,Heart Failure,2024-01-28,11,2024-02-08,1,2024-03-05,2,Rehab
+10629,55,Female,Public,COPD,2024-06-18,2,2024-06-20,0,,5,Home
+10630,81,Male,Uninsured,COPD,2024-12-01,8,2024-12-09,1,2024-12-21,5,Skilled Nursing
+10631,55,Female,Private,Diabetes,2024-03-16,5,2024-03-21,0,,3,Skilled Nursing
+10632,67,Female,Private,Heart Failure,2024-04-25,8,2024-05-03,1,2024-05-19,5,Skilled Nursing
+10633,47,Male,Public,Heart Failure,2024-03-09,8,2024-03-17,0,,4,Home
+10634,68,Female,Public,Diabetes,2024-12-19,6,2024-12-25,0,,1,Home
+10635,80,Female,Private,Heart Failure,2024-08-21,2,2024-08-23,0,,4,Home
+10636,69,Female,Private,Hypertension,2024-01-01,8,2024-01-09,0,,0,Home
+10637,55,Female,Private,Diabetes,2024-06-15,11,2024-06-26,1,2024-07-08,5,Home
+10638,47,Male,Private,Hypertension,2024-12-17,6,2024-12-23,0,,5,Home
+10639,68,Male,Public,Heart Failure,2024-08-05,6,2024-08-11,0,,3,Home
+10640,22,Female,Public,Diabetes,2024-09-29,8,2024-10-07,0,,1,Skilled Nursing
+10641,46,Male,Private,Heart Failure,2024-09-07,1,2024-09-08,1,2024-09-27,5,Home
+10642,21,Female,Private,Diabetes,2024-12-12,2,2024-12-14,0,,3,Home
+10643,27,Female,Private,Heart Failure,2024-12-09,12,2024-12-21,0,,3,Rehab
+10644,73,Female,Private,Hypertension,2024-06-22,12,2024-07-04,0,,1,Rehab
+10645,34,Female,Public,Hypertension,2024-06-18,9,2024-06-27,0,,4,Skilled Nursing
+10646,34,Female,Uninsured,Heart Failure,2024-09-02,11,2024-09-13,0,,4,Rehab
+10647,86,Male,Public,Diabetes,2024-03-30,12,2024-04-11,0,,4,Skilled Nursing
+10648,51,Female,Private,COPD,2024-02-18,8,2024-02-26,0,,2,Home
+10649,23,Male,Public,Hypertension,2024-10-20,12,2024-11-01,0,,4,Home
+10650,70,Male,Public,Hypertension,2024-05-29,7,2024-06-05,0,,1,Home
+10651,83,Female,Public,COPD,2024-05-11,7,2024-05-18,0,,2,Home
+10652,60,Female,Public,Heart Failure,2024-02-28,5,2024-03-04,0,,4,Home
+10653,40,Female,Private,Diabetes,2024-11-19,2,2024-11-21,1,2024-12-01,2,Home
+10654,72,Female,Private,Heart Failure,2024-07-17,11,2024-07-28,1,2024-08-04,1,Home
+10655,33,Female,Private,Kidney Disease,2024-08-02,6,2024-08-08,0,,4,Home
+10656,25,Male,Private,Hypertension,2024-02-18,10,2024-02-28,0,,0,Home
+10657,21,Female,Private,Kidney Disease,2024-08-19,3,2024-08-22,0,,5,Skilled Nursing
+10658,21,Female,Public,Hypertension,2024-09-03,4,2024-09-07,0,,1,Home
+10659,73,Male,Public,Hypertension,2024-08-26,13,2024-09-08,0,,3,Rehab
+10660,42,Male,Public,Kidney Disease,2024-06-16,10,2024-06-26,0,,3,Home
+10661,84,Female,Private,Kidney Disease,2024-02-17,12,2024-02-29,0,,1,Skilled Nursing
+10662,84,Male,Uninsured,Heart Failure,2024-02-20,11,2024-03-02,1,2024-03-14,3,Skilled Nursing
+10663,44,Female,Uninsured,Kidney Disease,2024-10-25,2,2024-10-27,0,,1,Home
+10664,49,Male,Public,Heart Failure,2024-04-07,14,2024-04-21,0,,0,Home
+10665,67,Male,Uninsured,Heart Failure,2024-08-03,2,2024-08-05,0,,1,Home
+10666,78,Female,Public,Heart Failure,2024-06-25,12,2024-07-07,0,,4,AMA
+10667,68,Male,Uninsured,Hypertension,2024-03-20,8,2024-03-28,0,,4,Skilled Nursing
+10668,36,Male,Private,Hypertension,2024-07-03,8,2024-07-11,0,,2,Skilled Nursing
+10669,38,Male,Private,Kidney Disease,2024-01-27,10,2024-02-06,0,,3,Home
+10670,22,Male,Private,Hypertension,2024-07-13,6,2024-07-19,0,,5,Home
+10671,59,Male,Private,Kidney Disease,2024-08-01,13,2024-08-14,1,2024-09-03,3,Skilled Nursing
+10672,78,Male,Private,Hypertension,2024-12-07,5,2024-12-12,0,,1,Home
+10673,39,Female,Public,Diabetes,2024-04-23,8,2024-05-01,0,,5,Home
+10674,38,Female,Public,Diabetes,2024-08-29,4,2024-09-02,0,,5,Home
+10675,87,Male,Public,Kidney Disease,2024-05-03,11,2024-05-14,0,,3,Skilled Nursing
+10676,18,Female,Private,Hypertension,2024-10-31,4,2024-11-04,0,,5,Home
+10677,22,Female,Public,Hypertension,2024-03-16,5,2024-03-21,0,,5,Home
+10678,29,Female,Public,Heart Failure,2024-11-06,1,2024-11-07,1,2024-11-12,4,Home
+10679,63,Male,Private,COPD,2024-11-07,1,2024-11-08,1,2024-11-24,0,Rehab
+10680,51,Female,Public,Kidney Disease,2024-07-14,2,2024-07-16,0,,1,Home
+10681,66,Male,Private,COPD,2024-12-16,14,2024-12-30,1,2025-01-08,3,Home
+10682,62,Female,Private,COPD,2024-02-13,8,2024-02-21,0,,4,Home
+10683,44,Male,Uninsured,Kidney Disease,2024-07-04,7,2024-07-11,0,,2,Rehab
+10684,43,Male,Private,Hypertension,2024-12-08,10,2024-12-18,0,,5,AMA
+10685,64,Female,Public,Kidney Disease,2024-09-02,9,2024-09-11,1,2024-09-18,5,Rehab
+10686,73,Female,Public,COPD,2024-03-24,5,2024-03-29,0,,3,Home
+10687,80,Male,Public,Hypertension,2024-07-25,2,2024-07-27,0,,0,Skilled Nursing
+10688,65,Female,Private,Diabetes,2024-05-30,7,2024-06-06,0,,0,Home
+10689,78,Female,Private,Kidney Disease,2024-06-04,8,2024-06-12,0,,3,Home
+10690,43,Female,Private,Kidney Disease,2024-01-16,12,2024-01-28,0,,3,Home
+10691,53,Male,Public,Hypertension,2024-06-13,7,2024-06-20,1,2024-07-10,4,Home
+10692,18,Male,Private,Diabetes,2024-05-24,14,2024-06-07,0,,3,Rehab
+10693,25,Female,Private,Diabetes,2024-02-06,7,2024-02-13,0,,2,Home
+10694,69,Female,Uninsured,Hypertension,2024-11-28,12,2024-12-10,0,,4,Home
+10695,64,Female,Public,Heart Failure,2024-02-14,14,2024-02-28,0,,5,Home
+10696,73,Male,Private,Kidney Disease,2024-07-24,5,2024-07-29,0,,5,Home
+10697,31,Male,Public,Kidney Disease,2024-03-02,2,2024-03-04,0,,5,Home
+10698,45,Female,Public,COPD,2024-12-21,6,2024-12-27,0,,5,Home
+10699,19,Female,Private,Hypertension,2024-11-03,4,2024-11-07,0,,1,Home
+10700,43,Female,Private,COPD,2024-01-19,10,2024-01-29,0,,2,Home
+10701,31,Female,Public,COPD,2024-12-30,2,2025-01-01,0,,4,Home
+10702,76,Female,Public,Diabetes,2024-10-26,12,2024-11-07,0,,4,Rehab
+10703,73,Female,Public,Kidney Disease,2024-01-07,9,2024-01-16,0,,5,Home
+10704,24,Male,Private,COPD,2024-09-05,7,2024-09-12,1,2024-10-04,0,Skilled Nursing
+10705,20,Female,Private,Diabetes,2024-04-26,6,2024-05-02,0,,4,Skilled Nursing
+10706,40,Male,Private,Hypertension,2024-03-08,12,2024-03-20,0,,2,Rehab
+10707,35,Female,Private,COPD,2024-02-03,5,2024-02-08,0,,3,Home
+10708,55,Female,Private,Kidney Disease,2024-07-12,3,2024-07-15,0,,2,Home
+10709,32,Male,Private,COPD,2024-11-20,12,2024-12-02,1,2024-12-28,5,AMA
+10710,81,Male,Public,Hypertension,2024-02-24,10,2024-03-05,0,,5,Home
+10711,45,Male,Uninsured,COPD,2024-09-22,10,2024-10-02,0,,1,Home
+10712,56,Male,Public,Kidney Disease,2024-02-11,4,2024-02-15,0,,4,Home
+10713,74,Female,Public,Diabetes,2024-10-23,3,2024-10-26,0,,4,Home
+10714,34,Male,Private,Kidney Disease,2024-08-18,12,2024-08-30,1,2024-09-13,4,AMA
+10715,61,Female,Uninsured,Diabetes,2024-01-10,11,2024-01-21,0,,5,Home
+10716,42,Male,Private,Heart Failure,2024-12-23,8,2024-12-31,0,,4,Home
+10717,34,Female,Uninsured,Kidney Disease,2024-05-07,3,2024-05-10,0,,0,Home
+10718,30,Female,Uninsured,Kidney Disease,2024-06-27,7,2024-07-04,0,,0,Home
+10719,42,Female,Public,Hypertension,2024-07-11,7,2024-07-18,1,2024-07-29,3,Home
+10720,85,Female,Uninsured,COPD,2024-04-01,7,2024-04-08,0,,4,Home
+10721,27,Female,Public,Diabetes,2024-08-18,13,2024-08-31,0,,1,Rehab
+10722,84,Female,Private,Diabetes,2024-03-18,7,2024-03-25,0,,3,Home
+10723,35,Male,Private,Hypertension,2024-03-25,14,2024-04-08,0,,5,Rehab
+10724,51,Female,Public,Hypertension,2024-01-30,2,2024-02-01,0,,4,Home
+10725,25,Male,Private,COPD,2024-07-31,10,2024-08-10,0,,0,Home
+10726,57,Male,Public,COPD,2024-02-18,3,2024-02-21,0,,1,Home
+10727,59,Female,Uninsured,Kidney Disease,2024-09-21,10,2024-10-01,0,,3,Home
+10728,58,Male,Private,Heart Failure,2024-05-24,9,2024-06-02,0,,1,Rehab
+10729,23,Female,Public,COPD,2024-03-09,3,2024-03-12,1,2024-03-19,4,Rehab
+10730,69,Male,Uninsured,Hypertension,2024-02-27,2,2024-02-29,0,,2,Home
+10731,43,Female,Uninsured,COPD,2024-07-03,9,2024-07-12,0,,1,Home
+10732,81,Male,Uninsured,Diabetes,2024-03-02,13,2024-03-15,0,,1,Rehab
+10733,76,Female,Public,Heart Failure,2024-11-03,10,2024-11-13,0,,5,Home
+10734,73,Female,Uninsured,Kidney Disease,2024-10-22,9,2024-10-31,0,,0,Home
+10735,76,Female,Public,Diabetes,2024-06-14,4,2024-06-18,1,2024-07-17,4,AMA
+10736,87,Female,Private,Diabetes,2024-06-19,14,2024-07-03,0,,1,Home
+10737,50,Male,Public,Heart Failure,2024-03-03,12,2024-03-15,0,,4,AMA
+10738,70,Female,Public,Kidney Disease,2024-05-26,9,2024-06-04,0,,0,Home
+10739,39,Male,Private,Hypertension,2024-11-01,3,2024-11-04,0,,5,Rehab
+10740,38,Male,Public,Kidney Disease,2024-06-09,7,2024-06-16,0,,4,Home
+10741,87,Male,Public,COPD,2024-05-20,7,2024-05-27,0,,0,Home
+10742,87,Female,Private,Diabetes,2024-11-29,11,2024-12-10,0,,0,Home
+10743,21,Male,Public,COPD,2024-04-06,8,2024-04-14,0,,3,Home
+10744,79,Male,Public,Hypertension,2024-08-08,10,2024-08-18,0,,5,Home
+10745,79,Male,Public,COPD,2024-02-12,4,2024-02-16,0,,5,Home
+10746,41,Female,Private,Kidney Disease,2024-10-18,3,2024-10-21,0,,4,Home
+10747,72,Female,Private,COPD,2024-04-17,3,2024-04-20,0,,2,Rehab
+10748,26,Male,Private,Hypertension,2024-09-22,12,2024-10-04,0,,3,Home
+10749,20,Female,Uninsured,Hypertension,2024-04-04,5,2024-04-09,0,,5,Home
+10750,48,Female,Private,Hypertension,2024-09-18,11,2024-09-29,0,,0,Home
+10751,57,Male,Public,Kidney Disease,2024-11-08,14,2024-11-22,0,,5,Home
+10752,53,Male,Private,Hypertension,2024-03-11,1,2024-03-12,0,,2,Home
+10753,41,Female,Private,Diabetes,2024-08-06,10,2024-08-16,0,,1,Home
+10754,23,Male,Public,Hypertension,2024-01-21,3,2024-01-24,0,,1,Rehab
+10755,83,Female,Public,COPD,2024-04-01,14,2024-04-15,0,,5,Home
+10756,21,Female,Private,COPD,2024-05-06,6,2024-05-12,0,,5,Home
+10757,23,Female,Private,COPD,2024-03-20,3,2024-03-23,1,2024-04-02,3,Skilled Nursing
+10758,68,Female,Private,Kidney Disease,2024-11-07,5,2024-11-12,0,,5,Rehab
+10759,79,Female,Public,COPD,2024-08-25,9,2024-09-03,0,,2,Home
+10760,74,Female,Public,Kidney Disease,2024-06-30,2,2024-07-02,0,,5,Rehab
+10761,83,Male,Private,Kidney Disease,2024-01-25,11,2024-02-05,0,,4,Home
+10762,25,Male,Private,Hypertension,2024-06-04,2,2024-06-06,0,,2,Rehab
+10763,43,Female,Private,Diabetes,2024-01-05,12,2024-01-17,0,,3,Home
+10764,68,Female,Uninsured,Hypertension,2024-04-29,6,2024-05-05,0,,4,Home
+10765,62,Female,Uninsured,Hypertension,2024-10-03,6,2024-10-09,0,,4,AMA
+10766,61,Male,Private,Kidney Disease,2024-01-18,11,2024-01-29,0,,1,Home
+10767,22,Female,Public,Kidney Disease,2024-07-16,11,2024-07-27,0,,2,Home
+10768,87,Male,Private,COPD,2024-02-26,8,2024-03-05,0,,4,Home
+10769,43,Female,Private,COPD,2024-04-02,12,2024-04-14,0,,3,Home
+10770,85,Female,Public,Hypertension,2024-01-19,13,2024-02-01,0,,1,Home
+10771,36,Male,Uninsured,Heart Failure,2024-12-18,11,2024-12-29,0,,4,Home
+10772,37,Male,Uninsured,Heart Failure,2024-07-11,14,2024-07-25,0,,2,Home
+10773,29,Female,Public,COPD,2024-08-24,2,2024-08-26,0,,1,Home
+10774,64,Female,Private,Heart Failure,2024-10-03,9,2024-10-12,0,,2,Home
+10775,18,Female,Public,COPD,2024-08-14,2,2024-08-16,0,,2,Home
+10776,31,Male,Private,Kidney Disease,2024-08-20,13,2024-09-02,1,2024-10-01,2,Home
+10777,81,Male,Public,Hypertension,2024-02-09,1,2024-02-10,1,2024-02-19,1,Skilled Nursing
+10778,55,Male,Private,Diabetes,2024-11-18,10,2024-11-28,0,,4,Home
+10779,54,Male,Public,Hypertension,2024-06-01,2,2024-06-03,0,,5,Home
+10780,28,Male,Private,COPD,2024-05-06,12,2024-05-18,0,,0,Rehab
+10781,20,Male,Private,COPD,2024-08-24,7,2024-08-31,0,,4,Rehab
+10782,50,Female,Uninsured,Hypertension,2024-02-24,8,2024-03-03,0,,1,Home
+10783,23,Female,Private,COPD,2024-06-20,5,2024-06-25,0,,0,Skilled Nursing
+10784,67,Male,Public,Heart Failure,2024-04-18,6,2024-04-24,1,2024-04-28,0,Home
+10785,27,Female,Private,Heart Failure,2024-12-19,12,2024-12-31,0,,0,Skilled Nursing
+10786,22,Female,Private,COPD,2024-07-02,1,2024-07-03,0,,5,Home
+10787,40,Male,Private,COPD,2024-07-16,6,2024-07-22,0,,3,Home
+10788,27,Female,Private,Heart Failure,2024-03-27,12,2024-04-08,1,2024-04-24,1,Home
+10789,61,Male,Public,COPD,2024-07-19,8,2024-07-27,0,,5,Rehab
+10790,19,Male,Private,COPD,2024-12-02,13,2024-12-15,0,,5,Home
+10791,30,Female,Uninsured,Hypertension,2024-11-17,3,2024-11-20,0,,3,Home
+10792,57,Male,Public,Diabetes,2024-10-01,11,2024-10-12,1,2024-10-22,0,Home
+10793,19,Male,Private,Heart Failure,2024-07-29,1,2024-07-30,0,,3,Skilled Nursing
+10794,82,Male,Public,Hypertension,2024-04-27,11,2024-05-08,1,2024-05-27,3,Rehab
+10795,80,Male,Public,Diabetes,2024-07-09,4,2024-07-13,0,,5,Home
+10796,34,Male,Public,COPD,2024-02-11,1,2024-02-12,0,,1,Home
+10797,26,Male,Private,COPD,2024-02-11,14,2024-02-25,0,,2,Home
+10798,32,Male,Private,Hypertension,2024-11-10,8,2024-11-18,0,,3,Home
+10799,41,Male,Public,COPD,2024-10-02,5,2024-10-07,0,,3,Skilled Nursing
+10800,55,Female,Uninsured,Kidney Disease,2024-11-24,1,2024-11-25,1,2024-12-19,0,Home
+10801,52,Female,Public,Hypertension,2024-01-17,14,2024-01-31,0,,0,Home
+10802,66,Female,Private,Diabetes,2024-10-09,8,2024-10-17,0,,5,Home
+10803,86,Male,Public,Hypertension,2024-09-14,9,2024-09-23,0,,0,Home
+10804,79,Male,Public,Heart Failure,2024-03-03,10,2024-03-13,0,,4,Home
+10805,77,Female,Public,Hypertension,2024-03-02,2,2024-03-04,0,,3,Home
+10806,67,Female,Private,COPD,2024-04-09,9,2024-04-18,0,,0,Home
+10807,26,Female,Public,COPD,2024-01-19,8,2024-01-27,0,,1,Home
+10808,51,Male,Private,Kidney Disease,2024-01-17,7,2024-01-24,0,,4,Home
+10809,52,Female,Private,Kidney Disease,2024-11-20,3,2024-11-23,1,2024-12-10,5,Home
+10810,18,Female,Public,Kidney Disease,2024-09-02,2,2024-09-04,0,,2,Home
+10811,57,Male,Private,Diabetes,2024-09-07,7,2024-09-14,1,2024-09-23,3,Rehab
+10812,81,Female,Private,Kidney Disease,2024-03-21,5,2024-03-26,0,,3,Home
+10813,39,Male,Private,Diabetes,2024-02-08,6,2024-02-14,0,,1,Home
+10814,77,Male,Uninsured,Kidney Disease,2024-02-05,4,2024-02-09,0,,2,Rehab
+10815,81,Male,Public,Diabetes,2024-07-15,2,2024-07-17,0,,2,Home
+10816,89,Female,Private,Hypertension,2024-06-06,9,2024-06-15,1,2024-06-28,5,Home
+10817,28,Female,Public,Hypertension,2024-07-22,3,2024-07-25,0,,5,Home
+10818,31,Male,Public,COPD,2024-07-14,12,2024-07-26,0,,4,Home
+10819,77,Female,Private,Diabetes,2024-08-03,14,2024-08-17,1,2024-08-18,3,Home
+10820,47,Female,Public,Heart Failure,2024-10-11,7,2024-10-18,0,,0,Home
+10821,52,Female,Public,COPD,2024-07-14,14,2024-07-28,0,,5,Rehab
+10822,54,Female,Public,Hypertension,2024-11-02,8,2024-11-10,0,,1,Skilled Nursing
+10823,22,Male,Private,Diabetes,2024-05-31,2,2024-06-02,1,2024-06-04,1,Home
+10824,43,Female,Public,Kidney Disease,2024-01-14,14,2024-01-28,0,,1,Home
+10825,79,Male,Public,Heart Failure,2024-11-20,6,2024-11-26,0,,5,Home
+10826,21,Male,Private,Hypertension,2024-05-25,11,2024-06-05,0,,5,Home
+10827,59,Female,Private,COPD,2024-02-26,8,2024-03-05,1,2024-03-18,1,Home
+10828,35,Male,Private,Diabetes,2024-07-29,7,2024-08-05,0,,5,Skilled Nursing
+10829,57,Female,Private,Heart Failure,2024-09-24,11,2024-10-05,0,,0,Home
+10830,89,Female,Public,Diabetes,2024-07-28,3,2024-07-31,0,,0,Skilled Nursing
+10831,56,Male,Private,Kidney Disease,2024-01-17,1,2024-01-18,1,2024-02-11,4,Rehab
+10832,31,Male,Private,COPD,2024-10-12,14,2024-10-26,1,2024-11-04,3,Rehab
+10833,49,Male,Public,Diabetes,2024-12-09,6,2024-12-15,1,2024-12-22,0,Home
+10834,68,Male,Private,Hypertension,2024-07-21,8,2024-07-29,0,,4,Home
+10835,55,Female,Uninsured,COPD,2024-04-08,6,2024-04-14,0,,2,Home
+10836,40,Female,Private,Hypertension,2024-10-05,5,2024-10-10,0,,3,Home
+10837,80,Female,Private,Diabetes,2024-07-27,11,2024-08-07,1,2024-08-23,0,Home
+10838,32,Male,Private,COPD,2024-05-08,12,2024-05-20,0,,2,Home
+10839,42,Male,Private,Hypertension,2024-11-30,8,2024-12-08,0,,4,Home
+10840,34,Male,Private,Kidney Disease,2024-10-14,2,2024-10-16,1,2024-11-04,0,Home
+10841,83,Female,Public,Kidney Disease,2024-09-08,12,2024-09-20,0,,0,Rehab
+10842,70,Male,Uninsured,Diabetes,2024-09-21,1,2024-09-22,0,,5,Home
+10843,68,Female,Private,COPD,2024-09-27,1,2024-09-28,0,,2,Home
+10844,56,Male,Public,Heart Failure,2024-07-06,14,2024-07-20,0,,0,Home
+10845,68,Female,Public,COPD,2024-08-01,4,2024-08-05,0,,1,AMA
+10846,87,Female,Public,Kidney Disease,2024-10-09,6,2024-10-15,0,,5,Home
+10847,23,Male,Private,Hypertension,2024-07-29,13,2024-08-11,0,,5,Home
+10848,84,Male,Private,Heart Failure,2024-12-30,9,2025-01-08,0,,0,Home
+10849,24,Female,Private,Diabetes,2024-03-16,1,2024-03-17,0,,5,Skilled Nursing
+10850,68,Female,Public,Heart Failure,2024-05-27,12,2024-06-08,0,,3,Rehab
+10851,89,Male,Public,Diabetes,2024-11-16,1,2024-11-17,0,,2,Home
+10852,59,Male,Private,Heart Failure,2024-07-31,13,2024-08-13,0,,3,Home
+10853,81,Female,Private,Diabetes,2024-04-18,13,2024-05-01,0,,4,Home
+10854,32,Male,Uninsured,Diabetes,2024-05-08,5,2024-05-13,0,,3,Home
+10855,46,Female,Public,Heart Failure,2024-01-10,10,2024-01-20,0,,1,Home
+10856,50,Female,Uninsured,Heart Failure,2024-02-16,5,2024-02-21,1,2024-02-28,5,Rehab
+10857,44,Male,Public,Diabetes,2024-11-10,5,2024-11-15,0,,5,Skilled Nursing
+10858,53,Male,Private,Kidney Disease,2024-04-05,10,2024-04-15,1,2024-04-21,1,Home
+10859,46,Male,Public,Heart Failure,2024-04-12,6,2024-04-18,0,,5,Home
+10860,55,Male,Public,COPD,2024-12-07,8,2024-12-15,0,,3,Home
+10861,74,Male,Private,Hypertension,2024-05-25,3,2024-05-28,0,,4,Rehab
+10862,44,Female,Public,Diabetes,2024-01-27,9,2024-02-05,0,,0,Rehab
+10863,72,Female,Public,Diabetes,2024-08-07,13,2024-08-20,0,,1,Home
+10864,50,Male,Private,Hypertension,2024-01-18,1,2024-01-19,0,,3,Home
+10865,85,Male,Public,Kidney Disease,2024-06-15,4,2024-06-19,1,2024-07-07,3,Home
+10866,83,Male,Public,Hypertension,2024-03-22,9,2024-03-31,0,,3,Home
+10867,27,Female,Uninsured,Heart Failure,2024-03-12,14,2024-03-26,0,,0,Skilled Nursing
+10868,22,Male,Private,Hypertension,2024-11-05,8,2024-11-13,0,,2,Home
+10869,55,Male,Private,Diabetes,2024-09-10,10,2024-09-20,0,,5,Rehab
+10870,30,Female,Public,Hypertension,2024-06-10,9,2024-06-19,1,2024-07-08,5,Home
+10871,48,Female,Private,COPD,2024-11-22,1,2024-11-23,0,,4,Rehab
+10872,64,Male,Public,Heart Failure,2024-02-07,9,2024-02-16,1,2024-02-27,2,Home
+10873,69,Male,Public,Hypertension,2024-07-19,3,2024-07-22,0,,5,Rehab
+10874,73,Male,Private,Diabetes,2024-07-18,11,2024-07-29,0,,4,Home
+10875,32,Female,Public,Heart Failure,2024-09-11,12,2024-09-23,0,,4,Home
+10876,46,Male,Public,Diabetes,2024-06-27,10,2024-07-07,0,,3,Home
+10877,25,Male,Private,Kidney Disease,2024-02-04,9,2024-02-13,0,,1,Home
+10878,22,Male,Uninsured,COPD,2024-03-22,1,2024-03-23,0,,3,Home
+10879,46,Female,Public,Kidney Disease,2024-08-07,1,2024-08-08,0,,0,Home
+10880,64,Female,Public,COPD,2024-06-06,9,2024-06-15,0,,5,Skilled Nursing
+10881,85,Male,Public,Hypertension,2024-01-04,11,2024-01-15,1,2024-02-13,4,Home
+10882,62,Male,Public,Heart Failure,2024-06-15,14,2024-06-29,0,,1,Rehab
+10883,19,Female,Uninsured,Hypertension,2024-07-22,6,2024-07-28,0,,5,AMA
+10884,44,Female,Public,COPD,2024-07-12,4,2024-07-16,0,,4,Home
+10885,53,Female,Public,COPD,2024-08-22,7,2024-08-29,0,,4,Home
+10886,53,Female,Public,COPD,2024-07-24,5,2024-07-29,0,,3,Home
+10887,43,Female,Private,Diabetes,2024-05-29,10,2024-06-08,1,2024-06-20,1,Home
+10888,60,Female,Public,Heart Failure,2024-06-07,14,2024-06-21,1,2024-07-20,1,Home
+10889,44,Female,Private,Hypertension,2024-10-05,7,2024-10-12,0,,5,Skilled Nursing
+10890,86,Female,Private,Hypertension,2024-10-30,8,2024-11-07,1,2024-12-03,4,Home
+10891,37,Female,Private,Kidney Disease,2024-06-14,8,2024-06-22,0,,1,Home
+10892,28,Male,Uninsured,COPD,2024-11-06,1,2024-11-07,0,,1,Home
+10893,55,Male,Public,COPD,2024-03-08,8,2024-03-16,0,,5,Skilled Nursing
+10894,23,Male,Public,COPD,2024-03-28,6,2024-04-03,0,,3,Home
+10895,89,Female,Public,Hypertension,2024-08-04,4,2024-08-08,0,,2,Home
+10896,40,Male,Public,Kidney Disease,2024-01-01,13,2024-01-14,0,,0,Home
+10897,64,Female,Uninsured,Diabetes,2024-05-14,14,2024-05-28,0,,2,Home
+10898,63,Female,Public,Heart Failure,2024-07-03,12,2024-07-15,0,,1,Skilled Nursing
+10899,29,Male,Private,Diabetes,2024-12-16,8,2024-12-24,0,,4,Rehab
+10900,30,Female,Private,Hypertension,2024-05-19,3,2024-05-22,1,2024-06-01,0,Home
+10901,79,Male,Public,COPD,2024-04-15,13,2024-04-28,0,,0,Home
+10902,77,Male,Public,Heart Failure,2024-05-12,4,2024-05-16,0,,4,Home
+10903,60,Male,Private,Hypertension,2024-04-17,6,2024-04-23,0,,0,Home
+10904,85,Female,Private,Hypertension,2024-06-26,11,2024-07-07,0,,4,Home
+10905,22,Male,Public,Hypertension,2024-10-24,7,2024-10-31,0,,0,Home
+10906,54,Female,Private,Heart Failure,2024-12-23,4,2024-12-27,0,,5,Home
+10907,89,Male,Public,Heart Failure,2024-12-24,4,2024-12-28,0,,5,AMA
+10908,48,Male,Uninsured,Kidney Disease,2024-05-25,7,2024-06-01,0,,2,Home
+10909,26,Male,Private,Kidney Disease,2024-03-14,6,2024-03-20,0,,0,Skilled Nursing
+10910,68,Female,Private,Diabetes,2024-04-17,13,2024-04-30,0,,3,Home
+10911,46,Female,Public,Heart Failure,2024-05-01,11,2024-05-12,0,,4,Home
+10912,57,Female,Public,Heart Failure,2024-01-17,8,2024-01-25,0,,0,Rehab
+10913,58,Male,Public,Heart Failure,2024-07-14,1,2024-07-15,1,2024-07-28,5,Home
+10914,28,Male,Uninsured,Kidney Disease,2024-11-22,10,2024-12-02,0,,5,Home
+10915,40,Female,Private,Hypertension,2024-11-13,13,2024-11-26,1,2024-12-08,4,Home
+10916,18,Female,Public,COPD,2024-10-23,11,2024-11-03,0,,3,Home
+10917,63,Female,Public,Kidney Disease,2024-09-08,7,2024-09-15,1,2024-10-06,0,Skilled Nursing
+10918,38,Female,Public,Heart Failure,2024-04-28,12,2024-05-10,0,,0,Rehab
+10919,53,Female,Private,Kidney Disease,2024-06-10,7,2024-06-17,0,,3,Home
+10920,71,Female,Public,Diabetes,2024-07-16,11,2024-07-27,1,2024-08-06,3,Home
+10921,74,Male,Public,Heart Failure,2024-02-14,7,2024-02-21,0,,3,Home
+10922,18,Female,Private,Diabetes,2024-11-09,7,2024-11-16,0,,5,Home
+10923,80,Male,Private,Heart Failure,2024-06-27,10,2024-07-07,0,,4,Home
+10924,71,Male,Public,Kidney Disease,2024-02-13,14,2024-02-27,0,,3,Home
+10925,72,Female,Private,Hypertension,2024-09-27,10,2024-10-07,1,2024-10-27,4,Home
+10926,57,Female,Private,COPD,2024-03-18,8,2024-03-26,0,,2,Home
+10927,32,Male,Private,Diabetes,2024-11-21,9,2024-11-30,0,,0,Home
+10928,38,Female,Public,Kidney Disease,2024-06-26,9,2024-07-05,0,,0,Home
+10929,64,Female,Public,Hypertension,2024-12-22,2,2024-12-24,0,,1,Home
+10930,70,Male,Public,Kidney Disease,2024-01-03,13,2024-01-16,0,,2,AMA
+10931,26,Male,Private,Diabetes,2024-08-01,13,2024-08-14,0,,3,Skilled Nursing
+10932,69,Male,Public,COPD,2024-12-07,7,2024-12-14,0,,3,Home
+10933,74,Female,Public,Kidney Disease,2024-03-14,7,2024-03-21,0,,5,Home
+10934,43,Male,Public,Heart Failure,2024-02-20,4,2024-02-24,1,2024-03-13,2,Rehab
+10935,58,Female,Uninsured,Hypertension,2024-03-07,9,2024-03-16,0,,3,Skilled Nursing
+10936,52,Male,Private,Kidney Disease,2024-11-27,8,2024-12-05,0,,1,Rehab
+10937,80,Male,Public,Hypertension,2024-04-02,12,2024-04-14,0,,4,Home
+10938,42,Male,Private,Heart Failure,2024-06-24,1,2024-06-25,0,,0,AMA
+10939,55,Female,Public,COPD,2024-05-24,2,2024-05-26,0,,2,Home
+10940,19,Female,Private,COPD,2024-01-07,13,2024-01-20,1,2024-01-24,0,Rehab
+10941,24,Male,Private,Heart Failure,2024-09-25,13,2024-10-08,0,,4,Skilled Nursing
+10942,51,Male,Private,Hypertension,2024-11-17,2,2024-11-19,1,2024-12-17,2,Home
+10943,34,Male,Public,Kidney Disease,2024-01-04,12,2024-01-16,0,,4,Skilled Nursing
+10944,60,Female,Private,Heart Failure,2024-05-17,12,2024-05-29,0,,3,Home
+10945,76,Male,Public,Diabetes,2024-08-18,11,2024-08-29,0,,3,AMA
+10946,68,Female,Private,Hypertension,2024-03-28,8,2024-04-05,0,,3,Home
+10947,71,Male,Private,COPD,2024-01-17,1,2024-01-18,0,,4,Skilled Nursing
+10948,41,Male,Public,Heart Failure,2024-02-21,4,2024-02-25,1,2024-03-20,4,Home
+10949,42,Male,Private,COPD,2024-05-13,10,2024-05-23,0,,4,Rehab
+10950,88,Male,Private,Hypertension,2024-07-29,12,2024-08-10,1,2024-08-15,0,Home
+10951,69,Male,Public,COPD,2024-11-20,5,2024-11-25,0,,4,Home
+10952,87,Male,Private,Heart Failure,2024-08-06,9,2024-08-15,0,,3,Home
+10953,50,Female,Private,Hypertension,2024-07-23,7,2024-07-30,0,,1,Rehab
+10954,66,Male,Private,Diabetes,2024-07-29,8,2024-08-06,0,,4,Home
+10955,46,Female,Uninsured,Heart Failure,2024-10-03,14,2024-10-17,1,2024-10-22,1,Home
+10956,80,Male,Public,Kidney Disease,2024-01-24,11,2024-02-04,0,,3,Home
+10957,39,Male,Public,Heart Failure,2024-01-04,9,2024-01-13,0,,4,Skilled Nursing
+10958,43,Female,Public,Hypertension,2024-05-31,13,2024-06-13,0,,0,Home
+10959,45,Male,Private,Heart Failure,2024-09-15,7,2024-09-22,0,,0,Home
+10960,66,Female,Private,Diabetes,2024-11-19,5,2024-11-24,0,,1,Home
+10961,88,Female,Public,Diabetes,2024-12-22,13,2025-01-04,0,,5,Home
+10962,66,Male,Private,Kidney Disease,2024-06-16,5,2024-06-21,0,,0,Home
+10963,37,Female,Private,COPD,2024-06-24,10,2024-07-04,0,,0,Home
+10964,80,Female,Private,Hypertension,2024-11-05,11,2024-11-16,0,,0,Skilled Nursing
+10965,78,Male,Private,Hypertension,2024-10-17,6,2024-10-23,0,,3,Rehab
+10966,66,Female,Uninsured,COPD,2024-02-25,5,2024-03-01,0,,0,Home
+10967,88,Male,Private,Diabetes,2024-04-17,13,2024-04-30,0,,2,Home
+10968,18,Male,Public,Diabetes,2024-10-22,12,2024-11-03,0,,4,Home
+10969,30,Male,Private,Heart Failure,2024-11-19,11,2024-11-30,0,,0,Home
+10970,68,Male,Uninsured,Kidney Disease,2024-10-28,9,2024-11-06,0,,5,Rehab
+10971,73,Female,Private,Kidney Disease,2024-11-29,3,2024-12-02,0,,5,Home
+10972,79,Male,Private,Kidney Disease,2024-05-20,3,2024-05-23,0,,0,Home
+10973,49,Male,Public,Heart Failure,2024-06-03,7,2024-06-10,0,,0,Home
+10974,47,Female,Public,Kidney Disease,2024-09-18,7,2024-09-25,0,,2,Skilled Nursing
+10975,46,Male,Private,COPD,2024-09-29,6,2024-10-05,1,2024-11-03,0,Home
+10976,66,Male,Private,Heart Failure,2024-08-19,3,2024-08-22,0,,0,Home
+10977,62,Female,Private,COPD,2024-08-28,14,2024-09-11,0,,4,Home
+10978,47,Female,Private,Heart Failure,2024-12-20,13,2025-01-02,0,,5,Rehab
+10979,33,Female,Private,Kidney Disease,2024-12-02,7,2024-12-09,0,,2,Skilled Nursing
+10980,57,Female,Public,COPD,2024-09-14,5,2024-09-19,0,,5,Home
+10981,36,Female,Private,COPD,2024-09-05,7,2024-09-12,0,,2,Home
+10982,35,Female,Private,COPD,2024-03-17,2,2024-03-19,0,,5,Skilled Nursing
+10983,18,Female,Public,Heart Failure,2024-06-28,6,2024-07-04,0,,0,Home
+10984,64,Male,Uninsured,Hypertension,2024-03-06,14,2024-03-20,0,,5,Home
+10985,83,Female,Public,Kidney Disease,2024-11-03,8,2024-11-11,0,,5,Home
+10986,55,Female,Private,COPD,2024-12-13,1,2024-12-14,0,,2,Home
+10987,68,Female,Private,Hypertension,2024-06-19,4,2024-06-23,0,,1,Home
+10988,80,Male,Uninsured,Kidney Disease,2024-01-22,11,2024-02-02,0,,2,Rehab
+10989,21,Male,Private,Kidney Disease,2024-04-16,1,2024-04-17,0,,2,Home
+10990,18,Female,Private,COPD,2024-11-18,14,2024-12-02,1,2024-12-30,2,Home
+10991,25,Female,Public,COPD,2024-08-14,1,2024-08-15,0,,3,Rehab
+10992,46,Female,Public,Heart Failure,2024-08-03,10,2024-08-13,0,,3,Home
+10993,72,Male,Public,Hypertension,2024-03-09,12,2024-03-21,0,,3,Home
+10994,20,Male,Private,Hypertension,2024-03-24,14,2024-04-07,1,2024-04-19,2,Home
+10995,49,Female,Private,COPD,2024-04-12,14,2024-04-26,0,,1,Skilled Nursing
+10996,27,Male,Uninsured,Kidney Disease,2024-02-08,11,2024-02-19,0,,2,Skilled Nursing
+10997,51,Female,Private,COPD,2024-01-13,8,2024-01-21,0,,0,Skilled Nursing
+10998,72,Male,Public,Kidney Disease,2024-10-23,7,2024-10-30,0,,1,Skilled Nursing
+10999,49,Male,Public,Kidney Disease,2024-11-08,12,2024-11-20,1,2024-12-16,3,Home
+11000,67,Female,Public,COPD,2024-06-29,10,2024-07-09,0,,5,Home
+11001,24,Female,Private,Diabetes,2024-09-24,13,2024-10-07,0,,5,Rehab
+11002,25,Female,Private,Hypertension,2024-01-13,1,2024-01-14,1,2024-01-17,4,Home
+11003,82,Female,Public,Kidney Disease,2024-04-29,11,2024-05-10,0,,1,Home
+11004,74,Male,Public,Kidney Disease,2024-12-18,14,2025-01-01,0,,3,Home
+11005,84,Male,Uninsured,Diabetes,2024-02-26,13,2024-03-10,0,,1,Home
+11006,76,Male,Private,Heart Failure,2024-02-09,2,2024-02-11,0,,1,Skilled Nursing
+11007,89,Female,Private,Diabetes,2024-12-01,4,2024-12-05,0,,5,Home
+11008,71,Male,Uninsured,Diabetes,2024-05-07,1,2024-05-08,0,,2,Home
+11009,84,Female,Public,Kidney Disease,2024-06-21,3,2024-06-24,0,,0,AMA
+11010,68,Male,Public,Hypertension,2024-02-04,8,2024-02-12,0,,4,Home
+11011,25,Female,Private,Diabetes,2024-09-15,8,2024-09-23,1,2024-10-22,3,Home
+11012,51,Female,Public,Heart Failure,2024-01-05,8,2024-01-13,0,,1,Home
+11013,52,Male,Public,COPD,2024-08-05,6,2024-08-11,1,2024-08-19,4,Rehab
+11014,49,Female,Public,Diabetes,2024-01-11,6,2024-01-17,0,,1,Rehab
+11015,63,Female,Private,Diabetes,2024-11-22,5,2024-11-27,0,,5,Rehab
+11016,33,Male,Private,Heart Failure,2024-04-26,13,2024-05-09,1,2024-05-31,0,Rehab
+11017,85,Female,Public,Hypertension,2024-07-02,9,2024-07-11,0,,5,Home
+11018,54,Female,Private,Diabetes,2024-12-27,4,2024-12-31,0,,4,Skilled Nursing
+11019,71,Female,Public,Diabetes,2024-04-25,10,2024-05-05,0,,3,Skilled Nursing
+11020,31,Male,Uninsured,Hypertension,2024-06-10,12,2024-06-22,0,,1,Home
+11021,72,Male,Private,Heart Failure,2024-03-07,12,2024-03-19,0,,0,Home
+11022,65,Female,Public,Diabetes,2024-07-18,12,2024-07-30,1,2024-08-01,5,AMA
+11023,24,Male,Private,Hypertension,2024-01-31,7,2024-02-07,0,,4,Skilled Nursing
+11024,24,Female,Public,Diabetes,2024-03-15,1,2024-03-16,0,,5,Skilled Nursing
+11025,50,Female,Uninsured,COPD,2024-08-24,9,2024-09-02,0,,1,Skilled Nursing
+11026,40,Female,Private,Kidney Disease,2024-11-22,7,2024-11-29,0,,1,Home
+11027,36,Female,Private,COPD,2024-03-06,10,2024-03-16,0,,3,Home
+11028,36,Female,Private,Diabetes,2024-03-10,12,2024-03-22,0,,0,Home
+11029,53,Male,Private,Heart Failure,2024-10-23,9,2024-11-01,0,,2,Home
+11030,46,Female,Public,Kidney Disease,2024-01-20,7,2024-01-27,0,,5,Rehab
+11031,77,Male,Uninsured,COPD,2024-08-13,2,2024-08-15,1,2024-09-02,1,Home
+11032,19,Male,Private,Hypertension,2024-07-17,6,2024-07-23,0,,4,Home
+11033,18,Female,Private,Heart Failure,2024-02-08,10,2024-02-18,0,,5,Home
+11034,64,Female,Private,COPD,2024-05-24,12,2024-06-05,0,,3,Home
+11035,86,Male,Public,Hypertension,2024-02-14,11,2024-02-25,0,,3,Home
+11036,37,Male,Private,Diabetes,2024-11-21,4,2024-11-25,0,,1,Home
+11037,28,Male,Public,Hypertension,2024-03-31,3,2024-04-03,1,2024-04-12,1,Home
+11038,19,Female,Public,COPD,2024-08-25,2,2024-08-27,0,,1,Home
+11039,84,Male,Public,COPD,2024-03-10,6,2024-03-16,1,2024-03-29,2,AMA
+11040,29,Female,Private,Diabetes,2024-06-14,8,2024-06-22,0,,1,Home
+11041,37,Female,Public,Hypertension,2024-05-09,6,2024-05-15,1,2024-05-22,5,Home
+11042,22,Female,Private,Hypertension,2024-08-01,9,2024-08-10,0,,5,Home
+11043,54,Male,Private,Diabetes,2024-12-05,14,2024-12-19,1,2024-12-29,0,Home
+11044,55,Female,Public,Hypertension,2024-03-29,5,2024-04-03,0,,4,Home
+11045,26,Female,Public,Diabetes,2024-11-30,2,2024-12-02,0,,1,Rehab
+11046,70,Female,Private,Heart Failure,2024-09-08,8,2024-09-16,1,2024-09-25,5,Rehab
+11047,61,Female,Private,COPD,2024-12-14,9,2024-12-23,0,,5,Home
+11048,41,Female,Private,Heart Failure,2024-03-12,14,2024-03-26,0,,5,Home
+11049,47,Male,Private,Kidney Disease,2024-06-13,10,2024-06-23,0,,2,Skilled Nursing
+11050,76,Female,Private,Kidney Disease,2024-02-18,4,2024-02-22,1,2024-03-15,4,Rehab
+11051,31,Female,Private,Kidney Disease,2024-02-21,6,2024-02-27,0,,3,Home
+11052,26,Male,Public,Diabetes,2024-10-15,11,2024-10-26,0,,5,Home
+11053,57,Female,Public,Hypertension,2024-10-04,10,2024-10-14,0,,1,Home
+11054,83,Male,Public,Heart Failure,2024-04-23,8,2024-05-01,0,,5,Home
+11055,42,Female,Public,Heart Failure,2024-08-26,9,2024-09-04,1,2024-09-19,4,Home
+11056,39,Male,Private,Heart Failure,2024-05-12,12,2024-05-24,0,,3,Home
+11057,21,Male,Uninsured,Heart Failure,2024-09-30,5,2024-10-05,0,,2,Home
+11058,43,Female,Public,Kidney Disease,2024-06-14,12,2024-06-26,1,2024-07-01,0,Home
+11059,75,Female,Public,Heart Failure,2024-10-19,6,2024-10-25,0,,1,Rehab
+11060,46,Female,Public,Hypertension,2024-08-30,11,2024-09-10,0,,0,Rehab
+11061,54,Male,Uninsured,Kidney Disease,2024-11-15,4,2024-11-19,0,,2,Home
+11062,87,Male,Public,Heart Failure,2024-05-17,5,2024-05-22,0,,4,Rehab
+11063,35,Male,Private,Diabetes,2024-03-19,7,2024-03-26,0,,4,Home
+11064,59,Female,Public,COPD,2024-06-18,9,2024-06-27,0,,2,Rehab
+11065,58,Male,Public,COPD,2024-05-02,10,2024-05-12,0,,5,Home
+11066,55,Male,Public,COPD,2024-06-24,11,2024-07-05,0,,2,Home
+11067,51,Female,Public,Kidney Disease,2024-10-26,13,2024-11-08,0,,1,Home
+11068,34,Male,Private,Heart Failure,2024-03-22,6,2024-03-28,0,,3,Home
+11069,54,Male,Private,Kidney Disease,2024-03-27,14,2024-04-10,0,,0,Skilled Nursing
+11070,42,Female,Uninsured,Hypertension,2024-08-12,6,2024-08-18,0,,0,Home
+11071,44,Male,Public,Diabetes,2024-01-16,8,2024-01-24,0,,4,Home
+11072,74,Female,Public,Diabetes,2024-11-05,11,2024-11-16,0,,5,Home
+11073,48,Female,Private,COPD,2024-12-23,4,2024-12-27,0,,4,Home
+11074,23,Female,Private,COPD,2024-06-11,3,2024-06-14,0,,1,Home
+11075,57,Female,Public,COPD,2024-04-07,14,2024-04-21,0,,2,Home
+11076,29,Female,Public,Heart Failure,2024-06-04,7,2024-06-11,0,,0,Rehab
+11077,70,Male,Public,Hypertension,2024-01-02,5,2024-01-07,0,,1,Skilled Nursing
+11078,88,Male,Public,Hypertension,2024-12-15,2,2024-12-17,0,,4,AMA
+11079,27,Female,Public,Hypertension,2024-06-17,2,2024-06-19,1,2024-07-01,4,Home
+11080,62,Female,Private,Hypertension,2024-11-10,11,2024-11-21,1,2024-11-22,0,Rehab
+11081,34,Male,Public,COPD,2024-11-20,6,2024-11-26,0,,4,Home
+11082,43,Female,Private,Diabetes,2024-04-01,8,2024-04-09,0,,5,Home
+11083,79,Female,Private,COPD,2024-06-29,1,2024-06-30,0,,4,Home
+11084,63,Female,Public,Hypertension,2024-08-18,11,2024-08-29,0,,3,AMA
+11085,81,Male,Uninsured,COPD,2024-10-27,6,2024-11-02,0,,2,Rehab
+11086,19,Male,Private,Hypertension,2024-05-27,12,2024-06-08,0,,4,Skilled Nursing
+11087,71,Female,Public,Kidney Disease,2024-10-06,2,2024-10-08,0,,3,Rehab
+11088,82,Female,Private,Diabetes,2024-07-07,2,2024-07-09,0,,1,Skilled Nursing
+11089,68,Male,Private,Kidney Disease,2024-12-12,7,2024-12-19,0,,4,Rehab
+11090,70,Male,Private,Heart Failure,2024-12-15,10,2024-12-25,0,,5,Home
+11091,53,Female,Private,COPD,2024-11-09,1,2024-11-10,0,,1,Home
+11092,43,Female,Public,Heart Failure,2024-05-07,6,2024-05-13,0,,4,Home
+11093,46,Male,Private,COPD,2024-01-07,14,2024-01-21,0,,0,Home
+11094,38,Male,Public,Kidney Disease,2024-02-16,7,2024-02-23,0,,3,Home
+11095,28,Male,Uninsured,Hypertension,2024-02-22,14,2024-03-07,0,,3,Home
+11096,57,Female,Private,Hypertension,2024-07-05,8,2024-07-13,0,,0,Home
+11097,28,Male,Public,COPD,2024-02-07,7,2024-02-14,0,,2,AMA
+11098,53,Female,Private,Hypertension,2024-08-13,6,2024-08-19,0,,5,Skilled Nursing
+11099,76,Male,Public,Kidney Disease,2024-02-22,9,2024-03-02,1,2024-03-14,3,Home
+11100,56,Male,Private,Hypertension,2024-08-11,13,2024-08-24,1,2024-09-15,1,Home
+11101,71,Male,Private,Kidney Disease,2024-06-02,3,2024-06-05,0,,5,Home
+11102,72,Male,Private,Heart Failure,2024-02-17,11,2024-02-28,0,,3,Home
+11103,41,Female,Private,Kidney Disease,2024-12-16,6,2024-12-22,0,,2,Rehab
+11104,39,Female,Private,Diabetes,2024-05-26,4,2024-05-30,1,2024-06-05,1,Home
+11105,86,Male,Public,Diabetes,2024-03-04,2,2024-03-06,0,,5,Home
+11106,73,Female,Public,Diabetes,2024-12-14,1,2024-12-15,1,2025-01-03,1,Skilled Nursing
+11107,50,Male,Public,COPD,2024-06-30,12,2024-07-12,0,,0,Rehab
+11108,53,Male,Public,COPD,2024-05-04,12,2024-05-16,0,,4,Home
+11109,37,Male,Private,COPD,2024-06-27,14,2024-07-11,1,2024-07-30,0,Rehab
+11110,79,Male,Private,Kidney Disease,2024-02-08,1,2024-02-09,0,,5,Home
+11111,43,Female,Private,COPD,2024-09-16,11,2024-09-27,0,,4,Home
+11112,83,Male,Private,Heart Failure,2024-01-03,10,2024-01-13,0,,0,Home
+11113,57,Male,Public,Diabetes,2024-03-04,3,2024-03-07,0,,4,Home
+11114,34,Female,Public,Kidney Disease,2024-01-29,4,2024-02-02,0,,3,Home
+11115,18,Male,Private,Diabetes,2024-01-11,2,2024-01-13,0,,1,Home
+11116,78,Male,Private,COPD,2024-04-06,13,2024-04-19,0,,4,Home
+11117,60,Male,Public,Kidney Disease,2024-12-23,12,2025-01-04,0,,3,Rehab
+11118,59,Female,Public,Hypertension,2024-07-21,11,2024-08-01,1,2024-08-17,2,Home
+11119,42,Male,Private,Heart Failure,2024-01-21,11,2024-02-01,0,,0,Home
+11120,56,Female,Uninsured,COPD,2024-02-08,14,2024-02-22,0,,2,Rehab
+11121,52,Male,Uninsured,COPD,2024-08-10,11,2024-08-21,0,,5,Home
+11122,20,Male,Private,Heart Failure,2024-04-11,1,2024-04-12,0,,3,Skilled Nursing
+11123,61,Female,Private,Heart Failure,2024-02-15,4,2024-02-19,0,,2,Home
+11124,68,Male,Public,Hypertension,2024-03-06,7,2024-03-13,1,2024-04-01,2,Home
+11125,29,Male,Uninsured,COPD,2024-03-31,10,2024-04-10,0,,3,Home
+11126,36,Female,Public,COPD,2024-06-12,11,2024-06-23,0,,1,Home
+11127,61,Female,Private,Diabetes,2024-04-20,6,2024-04-26,0,,4,Home
+11128,76,Female,Private,Kidney Disease,2024-12-03,6,2024-12-09,0,,5,Home
+11129,66,Female,Public,Kidney Disease,2024-05-02,11,2024-05-13,1,2024-05-16,5,Home
+11130,78,Female,Public,Diabetes,2024-07-11,9,2024-07-20,0,,0,Home
+11131,34,Male,Private,Kidney Disease,2024-04-08,14,2024-04-22,0,,4,Home
+11132,74,Female,Public,Heart Failure,2024-10-17,2,2024-10-19,0,,0,Home
+11133,72,Male,Public,Kidney Disease,2024-06-07,4,2024-06-11,0,,5,Home
+11134,64,Male,Public,Kidney Disease,2024-04-12,5,2024-04-17,0,,4,Home
+11135,29,Male,Public,Diabetes,2024-10-07,1,2024-10-08,0,,2,Home
+11136,79,Female,Public,Hypertension,2024-02-12,8,2024-02-20,0,,1,Home
+11137,25,Female,Private,Kidney Disease,2024-03-24,8,2024-04-01,0,,2,Rehab
+11138,38,Male,Public,Kidney Disease,2024-07-09,6,2024-07-15,0,,1,Home
+11139,87,Female,Private,Hypertension,2024-02-20,12,2024-03-03,1,2024-03-26,3,Rehab
+11140,89,Female,Public,Diabetes,2024-07-28,5,2024-08-02,1,2024-08-12,0,Home
+11141,42,Female,Private,Hypertension,2024-05-05,8,2024-05-13,0,,0,Home
+11142,29,Female,Public,Diabetes,2024-03-09,3,2024-03-12,0,,3,Home
+11143,32,Male,Private,Heart Failure,2024-09-21,3,2024-09-24,0,,4,Rehab
+11144,76,Male,Private,Diabetes,2024-09-14,2,2024-09-16,0,,3,Home
+11145,43,Female,Private,Heart Failure,2024-07-06,5,2024-07-11,0,,5,Home
+11146,43,Male,Private,Heart Failure,2024-08-17,3,2024-08-20,0,,3,Home
+11147,64,Female,Public,Diabetes,2024-07-07,3,2024-07-10,1,2024-08-06,1,Home
+11148,49,Female,Public,COPD,2024-01-10,6,2024-01-16,1,2024-02-03,5,Home
+11149,27,Male,Public,Diabetes,2024-04-23,8,2024-05-01,0,,3,Home
+11150,33,Male,Private,Kidney Disease,2024-03-16,2,2024-03-18,0,,0,Home
+11151,88,Male,Private,Kidney Disease,2024-06-12,4,2024-06-16,0,,2,Home
+11152,34,Female,Private,COPD,2024-03-25,11,2024-04-05,0,,1,Home
+11153,40,Male,Private,Heart Failure,2024-02-18,7,2024-02-25,0,,1,Rehab
+11154,43,Female,Public,COPD,2024-11-21,1,2024-11-22,0,,4,Rehab
+11155,24,Male,Private,Kidney Disease,2024-06-25,1,2024-06-26,1,2024-07-22,2,Home
+11156,31,Male,Private,COPD,2024-08-05,12,2024-08-17,0,,1,Home
+11157,24,Female,Private,Diabetes,2024-07-07,13,2024-07-20,0,,3,Skilled Nursing
+11158,26,Female,Private,COPD,2024-12-11,10,2024-12-21,0,,1,Home
+11159,65,Female,Public,Heart Failure,2024-08-17,7,2024-08-24,0,,1,Home
+11160,89,Female,Public,Diabetes,2024-09-11,14,2024-09-25,0,,1,Rehab
+11161,76,Female,Private,Hypertension,2024-08-23,7,2024-08-30,1,2024-09-12,4,Home
+11162,56,Female,Private,Kidney Disease,2024-01-26,1,2024-01-27,0,,1,Home
+11163,35,Female,Private,Kidney Disease,2024-03-12,1,2024-03-13,0,,1,Skilled Nursing
+11164,76,Female,Private,COPD,2024-09-17,4,2024-09-21,0,,4,Home
+11165,34,Male,Private,Diabetes,2024-09-10,5,2024-09-15,0,,5,Rehab
+11166,31,Female,Uninsured,Hypertension,2024-09-27,5,2024-10-02,1,2024-10-28,2,Rehab
+11167,48,Female,Public,Diabetes,2024-05-02,4,2024-05-06,0,,5,Skilled Nursing
+11168,41,Male,Public,Kidney Disease,2024-05-23,8,2024-05-31,1,2024-06-18,0,Home
+11169,77,Female,Private,Diabetes,2024-09-13,7,2024-09-20,0,,4,Home
+11170,62,Male,Private,Hypertension,2024-05-23,9,2024-06-01,0,,4,Home
+11171,20,Male,Public,COPD,2024-09-15,7,2024-09-22,0,,1,Home
+11172,54,Female,Public,Heart Failure,2024-02-16,10,2024-02-26,0,,1,Home
+11173,60,Male,Public,Diabetes,2024-12-16,1,2024-12-17,0,,0,Home
+11174,57,Female,Private,Heart Failure,2024-01-13,13,2024-01-26,1,2024-01-29,1,Home
+11175,72,Male,Public,Kidney Disease,2024-07-26,14,2024-08-09,0,,3,Home
+11176,56,Male,Private,COPD,2024-11-06,7,2024-11-13,0,,1,Home
+11177,32,Male,Public,COPD,2024-08-22,1,2024-08-23,0,,1,Rehab
+11178,21,Female,Public,Diabetes,2024-05-28,7,2024-06-04,0,,3,Rehab
+11179,42,Female,Public,COPD,2024-11-17,10,2024-11-27,0,,0,Skilled Nursing
+11180,30,Male,Private,Diabetes,2024-06-03,8,2024-06-11,0,,3,Home
+11181,50,Male,Public,Diabetes,2024-06-14,11,2024-06-25,0,,4,Skilled Nursing
+11182,33,Female,Private,Heart Failure,2024-03-30,9,2024-04-08,0,,3,Skilled Nursing
+11183,59,Female,Private,COPD,2024-07-04,12,2024-07-16,0,,2,Home
+11184,83,Male,Private,Diabetes,2024-11-13,3,2024-11-16,0,,4,Home
+11185,72,Male,Public,Heart Failure,2024-12-23,4,2024-12-27,0,,1,Home
+11186,59,Female,Private,Hypertension,2024-06-22,4,2024-06-26,0,,4,Home
+11187,51,Female,Private,Heart Failure,2024-08-04,12,2024-08-16,1,2024-09-11,0,Home
+11188,47,Female,Public,Heart Failure,2024-09-20,9,2024-09-29,0,,0,Home
+11189,30,Female,Private,Diabetes,2024-04-06,13,2024-04-19,0,,3,Rehab
+11190,30,Female,Public,Kidney Disease,2024-04-26,7,2024-05-03,0,,4,Home
+11191,35,Male,Private,Kidney Disease,2024-07-17,3,2024-07-20,0,,1,Home
+11192,49,Female,Private,Kidney Disease,2024-11-15,10,2024-11-25,1,2024-12-23,0,Skilled Nursing
+11193,56,Male,Public,Heart Failure,2024-01-21,5,2024-01-26,0,,5,Home
+11194,63,Female,Private,Diabetes,2024-07-18,7,2024-07-25,1,2024-08-17,1,AMA
+11195,46,Male,Public,COPD,2024-12-06,8,2024-12-14,1,2024-12-17,5,Home
+11196,79,Female,Public,Heart Failure,2024-09-04,1,2024-09-05,0,,2,Skilled Nursing
+11197,79,Female,Public,Heart Failure,2024-10-02,12,2024-10-14,0,,5,Home
+11198,74,Male,Public,Diabetes,2024-09-20,2,2024-09-22,0,,0,Home
+11199,33,Male,Private,Hypertension,2024-02-27,7,2024-03-05,0,,3,Home
+11200,73,Female,Private,Heart Failure,2024-10-28,11,2024-11-08,0,,2,Rehab
+11201,27,Female,Public,Hypertension,2024-01-31,13,2024-02-13,0,,4,Skilled Nursing
+11202,47,Female,Public,Hypertension,2024-09-05,14,2024-09-19,0,,1,Home
+11203,42,Female,Public,Kidney Disease,2024-04-02,13,2024-04-15,0,,0,Skilled Nursing
+11204,22,Female,Public,Diabetes,2024-09-21,2,2024-09-23,0,,2,Home
+11205,82,Male,Public,Hypertension,2024-09-27,7,2024-10-04,1,2024-10-27,2,Home
+11206,66,Male,Public,Diabetes,2024-04-03,9,2024-04-12,0,,0,Rehab
+11207,20,Female,Private,Kidney Disease,2024-06-02,11,2024-06-13,1,2024-07-08,4,Home
+11208,62,Male,Public,Diabetes,2024-10-11,2,2024-10-13,0,,4,Home
+11209,31,Male,Public,Heart Failure,2024-03-20,7,2024-03-27,0,,3,Skilled Nursing
+11210,47,Male,Private,Hypertension,2024-10-18,4,2024-10-22,0,,5,Skilled Nursing
+11211,85,Female,Public,Diabetes,2024-03-24,11,2024-04-04,0,,4,AMA
+11212,35,Male,Public,COPD,2024-12-30,13,2025-01-12,0,,3,Skilled Nursing
+11213,79,Female,Public,Diabetes,2024-02-06,2,2024-02-08,0,,5,Home
+11214,54,Male,Private,Hypertension,2024-12-07,13,2024-12-20,1,2025-01-16,2,Rehab
+11215,42,Female,Private,Kidney Disease,2024-11-22,7,2024-11-29,0,,0,Home
+11216,65,Male,Public,Kidney Disease,2024-08-19,13,2024-09-01,0,,4,AMA
+11217,82,Female,Uninsured,Hypertension,2024-04-02,5,2024-04-07,1,2024-05-03,3,Home
+11218,70,Female,Private,Heart Failure,2024-12-01,1,2024-12-02,0,,2,Home
+11219,32,Male,Private,Heart Failure,2024-04-11,5,2024-04-16,0,,4,Home
+11220,66,Female,Public,Kidney Disease,2024-06-14,12,2024-06-26,0,,1,Home
+11221,85,Female,Private,Kidney Disease,2024-06-07,12,2024-06-19,1,2024-07-01,2,Home
+11222,29,Female,Public,Hypertension,2024-01-14,3,2024-01-17,0,,4,Skilled Nursing
+11223,76,Female,Uninsured,Heart Failure,2024-08-12,7,2024-08-19,0,,2,Rehab
+11224,54,Female,Private,Kidney Disease,2024-03-13,6,2024-03-19,0,,0,Home
+11225,78,Female,Public,Heart Failure,2024-09-05,8,2024-09-13,1,2024-10-10,0,Rehab
+11226,60,Female,Private,Kidney Disease,2024-03-31,13,2024-04-13,0,,0,Home
+11227,87,Female,Private,Diabetes,2024-08-03,5,2024-08-08,1,2024-08-28,5,Home
+11228,56,Male,Public,COPD,2024-03-30,2,2024-04-01,0,,1,Home
+11229,73,Male,Private,Diabetes,2024-01-29,9,2024-02-07,1,2024-02-14,0,Skilled Nursing
+11230,80,Female,Uninsured,Kidney Disease,2024-10-31,14,2024-11-14,0,,1,Rehab
+11231,63,Female,Public,COPD,2024-08-07,11,2024-08-18,0,,0,Home
+11232,28,Male,Private,COPD,2024-11-23,8,2024-12-01,1,2024-12-26,5,Home
+11233,79,Male,Private,Kidney Disease,2024-08-02,6,2024-08-08,0,,2,Home
+11234,42,Male,Private,Kidney Disease,2024-08-08,13,2024-08-21,0,,4,Home
+11235,88,Female,Private,Heart Failure,2024-02-11,10,2024-02-21,0,,4,Home
+11236,69,Male,Private,Kidney Disease,2024-05-14,7,2024-05-21,0,,0,Home
+11237,21,Female,Private,Hypertension,2024-02-11,9,2024-02-20,0,,4,Home
+11238,76,Female,Public,Kidney Disease,2024-06-12,7,2024-06-19,0,,0,Skilled Nursing
+11239,89,Male,Public,Hypertension,2024-12-26,3,2024-12-29,0,,0,Home
+11240,37,Female,Public,Kidney Disease,2024-10-09,6,2024-10-15,0,,3,Home
+11241,80,Female,Public,Heart Failure,2024-02-27,11,2024-03-09,0,,3,Home
+11242,71,Female,Private,Hypertension,2024-10-28,13,2024-11-10,0,,3,Skilled Nursing
+11243,74,Female,Private,Diabetes,2024-11-17,11,2024-11-28,0,,1,Rehab
+11244,58,Male,Public,Hypertension,2024-01-25,7,2024-02-01,0,,3,Skilled Nursing
+11245,20,Male,Public,Heart Failure,2024-03-13,2,2024-03-15,0,,0,Home
+11246,23,Female,Private,Hypertension,2024-05-08,3,2024-05-11,1,2024-06-04,5,Rehab
+11247,22,Female,Public,Kidney Disease,2024-03-27,4,2024-03-31,0,,5,Home
+11248,22,Male,Public,Kidney Disease,2024-11-25,10,2024-12-05,1,2024-12-13,2,Home
+11249,71,Female,Public,Heart Failure,2024-06-01,6,2024-06-07,1,2024-06-16,3,Home
+11250,64,Male,Private,COPD,2024-06-30,1,2024-07-01,0,,5,Home
+11251,66,Female,Public,Kidney Disease,2024-05-04,9,2024-05-13,0,,3,Skilled Nursing
+11252,26,Female,Public,Diabetes,2024-03-07,5,2024-03-12,1,2024-03-26,2,Skilled Nursing
+11253,37,Male,Public,Heart Failure,2024-01-06,13,2024-01-19,0,,5,Home
+11254,78,Male,Public,Hypertension,2024-05-04,12,2024-05-16,0,,0,Home
+11255,52,Male,Public,Hypertension,2024-11-09,14,2024-11-23,0,,1,Home
+11256,67,Male,Public,Diabetes,2024-11-21,7,2024-11-28,0,,3,Home
+11257,79,Female,Private,Kidney Disease,2024-02-22,9,2024-03-02,0,,5,Home
+11258,34,Male,Public,Heart Failure,2024-03-06,9,2024-03-15,0,,5,Skilled Nursing
+11259,20,Female,Public,Diabetes,2024-11-09,1,2024-11-10,0,,2,Skilled Nursing
+11260,49,Male,Public,Kidney Disease,2024-03-22,1,2024-03-23,0,,0,Home
+11261,30,Male,Private,Heart Failure,2024-03-27,3,2024-03-30,0,,4,Rehab
+11262,85,Female,Private,Hypertension,2024-01-02,6,2024-01-08,0,,5,Home
+11263,31,Male,Public,Heart Failure,2024-07-22,2,2024-07-24,0,,1,Home
+11264,28,Male,Public,COPD,2024-05-29,10,2024-06-08,1,2024-06-13,2,Home
+11265,73,Male,Uninsured,Heart Failure,2024-10-19,12,2024-10-31,0,,5,Home
+11266,84,Male,Public,COPD,2024-04-12,11,2024-04-23,0,,5,Rehab
+11267,46,Female,Public,Heart Failure,2024-01-24,1,2024-01-25,0,,2,Home
+11268,26,Female,Public,COPD,2024-07-30,1,2024-07-31,0,,2,Home
+11269,84,Male,Public,Hypertension,2024-03-05,13,2024-03-18,0,,3,Home
+11270,42,Male,Public,Kidney Disease,2024-07-27,5,2024-08-01,1,2024-08-22,5,Skilled Nursing
+11271,59,Male,Public,COPD,2024-09-07,4,2024-09-11,0,,4,Home
+11272,26,Female,Private,COPD,2024-04-26,1,2024-04-27,1,2024-05-16,1,Rehab
+11273,57,Female,Public,Hypertension,2024-04-25,4,2024-04-29,0,,0,Rehab
+11274,42,Female,Public,COPD,2024-08-24,3,2024-08-27,0,,0,Home
+11275,22,Female,Private,Diabetes,2024-04-14,2,2024-04-16,0,,4,Home
+11276,28,Male,Private,Hypertension,2024-09-15,9,2024-09-24,1,2024-10-15,2,Skilled Nursing
+11277,76,Male,Private,Diabetes,2024-02-15,14,2024-02-29,0,,2,Home
+11278,55,Male,Private,Hypertension,2024-11-06,11,2024-11-17,0,,2,Skilled Nursing
+11279,89,Female,Private,COPD,2024-11-26,1,2024-11-27,1,2024-12-13,5,Home
+11280,22,Male,Private,Diabetes,2024-08-03,7,2024-08-10,0,,2,Home
+11281,65,Female,Uninsured,COPD,2024-10-27,14,2024-11-10,0,,2,Skilled Nursing
+11282,35,Female,Public,Hypertension,2024-11-28,13,2024-12-11,1,2025-01-04,5,Rehab
+11283,87,Male,Private,COPD,2024-01-24,4,2024-01-28,0,,5,AMA
+11284,54,Male,Private,Diabetes,2024-02-04,5,2024-02-09,0,,4,Home
+11285,77,Male,Public,Diabetes,2024-01-24,10,2024-02-03,0,,3,Skilled Nursing
+11286,65,Female,Private,COPD,2024-01-28,5,2024-02-02,0,,5,Rehab
+11287,45,Female,Public,Heart Failure,2024-01-16,1,2024-01-17,0,,1,Rehab
+11288,86,Male,Public,Hypertension,2024-02-28,6,2024-03-05,0,,2,Home
+11289,57,Male,Public,Hypertension,2024-08-30,13,2024-09-12,0,,3,Home
+11290,62,Female,Private,COPD,2024-07-25,9,2024-08-03,0,,0,Skilled Nursing
+11291,79,Male,Public,Heart Failure,2024-09-27,2,2024-09-29,1,2024-10-11,4,Home
+11292,75,Female,Private,Diabetes,2024-09-05,7,2024-09-12,1,2024-10-03,3,Home
+11293,84,Female,Uninsured,Kidney Disease,2024-09-23,6,2024-09-29,0,,5,Home
+11294,73,Male,Public,Kidney Disease,2024-07-11,5,2024-07-16,0,,2,Home
+11295,57,Male,Private,COPD,2024-11-30,4,2024-12-04,1,2024-12-08,2,Home
+11296,57,Male,Private,Heart Failure,2024-08-05,4,2024-08-09,0,,2,Home
+11297,50,Male,Private,Heart Failure,2024-04-24,6,2024-04-30,0,,3,Skilled Nursing
+11298,23,Female,Public,Hypertension,2024-03-08,4,2024-03-12,1,2024-03-20,2,Home
+11299,36,Female,Private,Diabetes,2024-10-25,5,2024-10-30,0,,5,Home
+11300,57,Female,Public,Heart Failure,2024-11-20,13,2024-12-03,0,,3,Home
+11301,76,Male,Private,Kidney Disease,2024-03-15,6,2024-03-21,0,,2,Home
+11302,76,Female,Public,Diabetes,2024-04-12,5,2024-04-17,0,,0,Home
+11303,65,Male,Public,Diabetes,2024-10-23,7,2024-10-30,0,,0,Rehab
+11304,58,Male,Public,COPD,2024-06-26,9,2024-07-05,0,,1,Home
+11305,30,Male,Public,Heart Failure,2024-08-02,10,2024-08-12,0,,2,Skilled Nursing
+11306,62,Male,Private,COPD,2024-11-10,7,2024-11-17,0,,2,Home
+11307,70,Male,Private,Heart Failure,2024-02-08,7,2024-02-15,1,2024-02-22,3,Home
+11308,59,Male,Public,Hypertension,2024-09-15,4,2024-09-19,1,2024-10-04,3,Home
+11309,80,Female,Private,COPD,2024-07-22,1,2024-07-23,0,,2,Home
+11310,44,Male,Private,COPD,2024-01-07,14,2024-01-21,1,2024-01-27,1,Rehab
+11311,55,Female,Private,Kidney Disease,2024-02-18,8,2024-02-26,1,2024-03-02,2,Skilled Nursing
+11312,77,Female,Private,COPD,2024-01-26,4,2024-01-30,0,,5,Home
+11313,24,Male,Private,Heart Failure,2024-06-09,1,2024-06-10,0,,3,Home
+11314,22,Male,Public,Kidney Disease,2024-12-22,5,2024-12-27,0,,2,Home
+11315,62,Male,Private,COPD,2024-06-24,14,2024-07-08,0,,3,Home
+11316,75,Female,Public,COPD,2024-03-19,14,2024-04-02,0,,2,Skilled Nursing
+11317,48,Male,Private,Hypertension,2024-01-02,8,2024-01-10,0,,4,Home
+11318,40,Female,Public,COPD,2024-05-11,4,2024-05-15,0,,3,Rehab
+11319,59,Male,Private,Diabetes,2024-10-02,13,2024-10-15,0,,1,Home
+11320,27,Male,Public,Kidney Disease,2024-04-26,12,2024-05-08,1,2024-05-22,4,Home
+11321,49,Female,Public,Diabetes,2024-06-12,8,2024-06-20,0,,5,Home
+11322,70,Female,Private,Kidney Disease,2024-10-14,8,2024-10-22,0,,2,Home
+11323,47,Male,Uninsured,Hypertension,2024-01-28,3,2024-01-31,0,,5,Rehab
+11324,56,Female,Uninsured,COPD,2024-11-28,9,2024-12-07,0,,3,Home
+11325,48,Female,Public,COPD,2024-01-01,3,2024-01-04,1,2024-01-25,4,Rehab
+11326,19,Female,Public,COPD,2024-07-06,1,2024-07-07,0,,5,Home
+11327,29,Female,Private,Kidney Disease,2024-02-25,2,2024-02-27,0,,1,Skilled Nursing
+11328,56,Female,Public,COPD,2024-02-04,6,2024-02-10,0,,3,Home
+11329,83,Male,Private,Diabetes,2024-04-21,12,2024-05-03,0,,4,Skilled Nursing
+11330,30,Male,Private,COPD,2024-10-12,10,2024-10-22,0,,5,Rehab
+11331,63,Female,Uninsured,Hypertension,2024-11-05,2,2024-11-07,0,,4,Skilled Nursing
+11332,44,Male,Private,Diabetes,2024-02-05,6,2024-02-11,1,2024-02-24,4,Home
+11333,34,Male,Public,COPD,2024-08-04,14,2024-08-18,0,,5,Rehab
+11334,77,Female,Public,COPD,2024-03-20,1,2024-03-21,0,,0,Home
+11335,81,Male,Public,Heart Failure,2024-11-09,11,2024-11-20,0,,2,Home
+11336,52,Female,Uninsured,Kidney Disease,2024-03-23,13,2024-04-05,0,,3,Home
+11337,87,Female,Private,Diabetes,2024-03-05,1,2024-03-06,0,,3,Home
+11338,47,Male,Private,Heart Failure,2024-11-20,5,2024-11-25,0,,3,AMA
+11339,88,Female,Private,Hypertension,2024-05-07,10,2024-05-17,0,,4,Home
+11340,80,Female,Private,Kidney Disease,2024-11-02,13,2024-11-15,0,,5,Home
+11341,45,Female,Private,Diabetes,2024-01-22,11,2024-02-02,1,2024-02-12,2,Home
+11342,77,Female,Private,COPD,2024-08-03,9,2024-08-12,0,,1,Home
+11343,54,Female,Public,Diabetes,2024-04-16,14,2024-04-30,1,2024-05-18,3,Home
+11344,39,Male,Public,COPD,2024-04-18,8,2024-04-26,1,2024-05-25,5,Home
+11345,85,Male,Private,Kidney Disease,2024-12-22,3,2024-12-25,0,,2,Home
+11346,37,Female,Public,COPD,2024-06-29,3,2024-07-02,0,,2,Home
+11347,85,Female,Private,Hypertension,2024-12-21,1,2024-12-22,0,,0,Skilled Nursing
+11348,81,Male,Private,COPD,2024-06-12,14,2024-06-26,1,2024-06-30,5,Rehab
+11349,34,Female,Public,Hypertension,2024-03-08,3,2024-03-11,0,,3,AMA
+11350,29,Male,Public,Kidney Disease,2024-10-18,14,2024-11-01,0,,4,Home
+11351,39,Female,Public,Kidney Disease,2024-06-28,12,2024-07-10,1,2024-07-18,2,Home
+11352,34,Female,Private,Diabetes,2024-06-29,12,2024-07-11,0,,2,Home
+11353,27,Female,Public,Hypertension,2024-06-17,12,2024-06-29,0,,1,Home
+11354,82,Female,Public,Hypertension,2024-01-22,13,2024-02-04,0,,0,Home
+11355,39,Female,Public,Heart Failure,2024-03-06,11,2024-03-17,0,,2,Home
+11356,67,Female,Public,Heart Failure,2024-01-21,1,2024-01-22,1,2024-02-15,2,Home
+11357,31,Female,Public,Heart Failure,2024-04-09,8,2024-04-17,0,,4,Home
+11358,81,Male,Public,COPD,2024-10-26,1,2024-10-27,0,,4,Skilled Nursing
+11359,64,Male,Public,Heart Failure,2024-04-12,5,2024-04-17,1,2024-04-28,1,Home
+11360,46,Male,Uninsured,Hypertension,2024-02-16,9,2024-02-25,0,,5,Home
+11361,53,Female,Public,COPD,2024-02-08,7,2024-02-15,1,2024-03-03,1,Home
+11362,69,Female,Private,Kidney Disease,2024-10-11,4,2024-10-15,1,2024-11-02,1,Home
+11363,24,Female,Public,Diabetes,2024-11-05,11,2024-11-16,0,,4,Home
+11364,46,Female,Private,Heart Failure,2024-03-30,9,2024-04-08,0,,5,Home
+11365,28,Female,Private,Kidney Disease,2024-03-25,9,2024-04-03,0,,4,Home
+11366,50,Female,Public,Hypertension,2024-09-29,2,2024-10-01,0,,0,Skilled Nursing
+11367,23,Female,Uninsured,Diabetes,2024-12-01,10,2024-12-11,0,,3,Rehab
+11368,49,Male,Uninsured,Kidney Disease,2024-07-06,10,2024-07-16,0,,3,Home
+11369,68,Female,Private,Diabetes,2024-06-07,11,2024-06-18,0,,0,Home
+11370,75,Male,Public,Heart Failure,2024-08-30,12,2024-09-11,1,2024-10-02,3,Home
+11371,43,Male,Private,Hypertension,2024-03-13,6,2024-03-19,0,,5,Rehab
+11372,63,Female,Uninsured,Diabetes,2024-02-18,4,2024-02-22,0,,4,Home
+11373,46,Female,Uninsured,Kidney Disease,2024-04-10,8,2024-04-18,0,,3,Home
+11374,21,Male,Public,Heart Failure,2024-01-02,12,2024-01-14,1,2024-02-08,5,Home
+11375,30,Male,Public,Heart Failure,2024-08-31,11,2024-09-11,0,,4,Home
+11376,56,Female,Public,Kidney Disease,2024-06-24,7,2024-07-01,1,2024-07-27,5,Rehab
+11377,32,Female,Public,Kidney Disease,2024-08-25,7,2024-09-01,0,,0,Home
+11378,46,Male,Private,Diabetes,2024-02-28,11,2024-03-10,0,,1,Home
+11379,46,Female,Public,COPD,2024-12-18,10,2024-12-28,0,,0,Home
+11380,49,Female,Public,Heart Failure,2024-04-08,9,2024-04-17,0,,3,Home
+11381,19,Female,Public,Diabetes,2024-12-24,13,2025-01-06,0,,4,Skilled Nursing
+11382,64,Male,Private,Kidney Disease,2024-01-02,5,2024-01-07,0,,5,Skilled Nursing
+11383,39,Male,Uninsured,Diabetes,2024-08-30,6,2024-09-05,0,,3,Home
+11384,44,Male,Private,Kidney Disease,2024-10-23,1,2024-10-24,1,2024-11-04,3,Home
+11385,84,Female,Public,Hypertension,2024-07-29,6,2024-08-04,0,,1,Home
+11386,73,Female,Public,Kidney Disease,2024-05-02,2,2024-05-04,1,2024-05-20,3,Home
+11387,38,Male,Public,Kidney Disease,2024-08-16,6,2024-08-22,0,,1,Home
+11388,64,Male,Public,Kidney Disease,2024-03-22,9,2024-03-31,0,,4,Home
+11389,76,Male,Private,COPD,2024-05-23,8,2024-05-31,0,,4,Home
+11390,23,Female,Private,Kidney Disease,2024-05-19,9,2024-05-28,0,,5,Home
+11391,36,Male,Public,Heart Failure,2024-01-29,13,2024-02-11,0,,1,Home
+11392,74,Male,Public,Heart Failure,2024-09-26,10,2024-10-06,0,,0,Rehab
+11393,86,Female,Private,Diabetes,2024-09-03,8,2024-09-11,0,,4,Home
+11394,20,Female,Public,COPD,2024-01-12,3,2024-01-15,0,,5,Rehab
+11395,18,Female,Public,Diabetes,2024-12-20,8,2024-12-28,0,,0,Home
+11396,75,Male,Public,Heart Failure,2024-12-02,6,2024-12-08,1,2024-12-20,4,Home
+11397,55,Female,Public,Heart Failure,2024-04-15,13,2024-04-28,0,,4,Rehab
+11398,32,Female,Private,Hypertension,2024-02-01,6,2024-02-07,0,,5,Home
+11399,51,Male,Private,Kidney Disease,2024-03-14,6,2024-03-20,0,,5,Rehab
+11400,78,Female,Public,Heart Failure,2024-06-19,3,2024-06-22,0,,2,Home
+11401,52,Male,Public,Diabetes,2024-12-02,10,2024-12-12,0,,3,Home
+11402,81,Male,Public,Diabetes,2024-03-09,1,2024-03-10,0,,3,Home
+11403,42,Female,Public,Kidney Disease,2024-10-27,12,2024-11-08,0,,0,Home
+11404,41,Female,Public,Kidney Disease,2024-12-27,14,2025-01-10,0,,3,Home
+11405,29,Female,Uninsured,Hypertension,2024-05-16,4,2024-05-20,0,,0,Home
+11406,35,Female,Public,COPD,2024-04-09,10,2024-04-19,0,,4,Home
+11407,32,Female,Public,Diabetes,2024-05-25,12,2024-06-06,0,,2,Home
+11408,44,Female,Private,Kidney Disease,2024-01-09,6,2024-01-15,1,2024-01-28,2,Home
+11409,89,Male,Private,Diabetes,2024-03-02,11,2024-03-13,0,,4,Home
+11410,77,Male,Public,Kidney Disease,2024-07-03,12,2024-07-15,0,,5,Home
+11411,63,Female,Private,Heart Failure,2024-01-29,10,2024-02-08,1,2024-03-06,1,Home
+11412,34,Male,Uninsured,Diabetes,2024-04-23,2,2024-04-25,1,2024-05-11,1,Rehab
+11413,70,Female,Public,Heart Failure,2024-05-22,7,2024-05-29,0,,3,Rehab
+11414,25,Male,Public,Diabetes,2024-04-29,7,2024-05-06,0,,5,Home
+11415,44,Male,Private,COPD,2024-06-18,11,2024-06-29,1,2024-07-22,0,Skilled Nursing
+11416,63,Male,Private,Hypertension,2024-06-05,4,2024-06-09,0,,2,Home
+11417,67,Female,Private,Heart Failure,2024-11-30,4,2024-12-04,1,2024-12-30,3,Skilled Nursing
+11418,88,Male,Private,Kidney Disease,2024-12-14,1,2024-12-15,0,,4,Rehab
+11419,20,Female,Private,COPD,2024-09-16,13,2024-09-29,0,,5,Rehab
+11420,81,Male,Public,Diabetes,2024-03-22,2,2024-03-24,0,,2,Home
+11421,61,Male,Public,Heart Failure,2024-08-29,9,2024-09-07,0,,0,Home
+11422,70,Male,Public,Diabetes,2024-06-20,10,2024-06-30,1,2024-07-21,0,Home
+11423,41,Male,Public,Diabetes,2024-08-18,8,2024-08-26,1,2024-08-27,1,Rehab
+11424,77,Male,Private,Diabetes,2024-07-26,8,2024-08-03,0,,3,Home
+11425,20,Female,Public,Hypertension,2024-03-15,9,2024-03-24,0,,4,Rehab
+11426,37,Female,Public,Hypertension,2024-09-26,7,2024-10-03,1,2024-10-19,2,Home
+11427,63,Male,Private,Kidney Disease,2024-04-23,13,2024-05-06,0,,0,Rehab
+11428,32,Male,Public,Heart Failure,2024-03-02,9,2024-03-11,0,,2,Home
+11429,42,Male,Private,COPD,2024-12-27,10,2025-01-06,0,,4,Home
+11430,88,Male,Public,COPD,2024-11-15,12,2024-11-27,0,,2,Home
+11431,34,Female,Uninsured,COPD,2024-04-11,2,2024-04-13,0,,3,Home
+11432,26,Male,Private,Diabetes,2024-12-27,6,2025-01-02,0,,1,Home
+11433,55,Female,Public,Hypertension,2024-07-28,3,2024-07-31,0,,2,Rehab
+11434,65,Male,Public,Heart Failure,2024-09-11,11,2024-09-22,1,2024-10-07,5,Home
+11435,77,Female,Uninsured,Diabetes,2024-01-20,6,2024-01-26,0,,1,Home
+11436,80,Male,Public,Hypertension,2024-02-27,3,2024-03-01,0,,4,Rehab
+11437,19,Male,Public,Hypertension,2024-04-21,8,2024-04-29,0,,1,Home
+11438,89,Female,Private,Heart Failure,2024-11-08,11,2024-11-19,0,,2,Skilled Nursing
+11439,28,Male,Private,Heart Failure,2024-07-14,13,2024-07-27,0,,2,AMA
+11440,81,Male,Private,Heart Failure,2024-12-18,4,2024-12-22,0,,5,Home
+11441,89,Male,Uninsured,Diabetes,2024-04-01,12,2024-04-13,0,,0,Home
+11442,38,Female,Public,Kidney Disease,2024-02-21,10,2024-03-02,0,,5,Home
+11443,35,Male,Public,Heart Failure,2024-10-19,6,2024-10-25,0,,2,Rehab
+11444,81,Male,Uninsured,Kidney Disease,2024-01-08,9,2024-01-17,0,,1,Home
+11445,55,Female,Private,Diabetes,2024-10-26,2,2024-10-28,0,,5,Home
+11446,49,Female,Private,Kidney Disease,2024-04-07,2,2024-04-09,0,,5,Rehab
+11447,28,Female,Private,COPD,2024-08-23,7,2024-08-30,0,,0,Home
+11448,62,Male,Private,Kidney Disease,2024-03-09,2,2024-03-11,0,,2,Rehab
+11449,50,Male,Private,Heart Failure,2024-02-14,2,2024-02-16,1,2024-02-22,2,Rehab
+11450,58,Male,Public,Diabetes,2024-05-16,4,2024-05-20,1,2024-06-01,4,Home
+11451,25,Female,Private,Heart Failure,2024-08-21,9,2024-08-30,0,,0,Skilled Nursing
+11452,28,Male,Private,COPD,2024-02-01,8,2024-02-09,0,,4,Rehab
+11453,68,Male,Private,Heart Failure,2024-10-15,2,2024-10-17,0,,4,Home
+11454,58,Female,Private,Heart Failure,2024-05-05,8,2024-05-13,1,2024-05-21,4,Home
+11455,34,Female,Uninsured,Heart Failure,2024-03-07,4,2024-03-11,0,,3,Home
+11456,63,Female,Public,Hypertension,2024-01-30,2,2024-02-01,0,,4,Home
+11457,49,Female,Uninsured,COPD,2024-04-23,11,2024-05-04,0,,5,Skilled Nursing
+11458,71,Female,Private,Heart Failure,2024-07-22,10,2024-08-01,0,,1,Home
+11459,37,Male,Private,Heart Failure,2024-01-29,7,2024-02-05,1,2024-02-12,5,Home
+11460,50,Female,Public,Heart Failure,2024-05-10,6,2024-05-16,0,,5,Home
+11461,57,Male,Private,Diabetes,2024-07-03,14,2024-07-17,0,,2,Home
+11462,49,Male,Private,Hypertension,2024-09-09,10,2024-09-19,0,,3,Skilled Nursing
+11463,19,Female,Private,Diabetes,2024-10-12,5,2024-10-17,0,,4,Skilled Nursing
+11464,50,Female,Private,Hypertension,2024-03-02,11,2024-03-13,0,,2,Home
+11465,47,Female,Private,Heart Failure,2024-01-03,1,2024-01-04,0,,0,Home
+11466,50,Male,Private,COPD,2024-03-08,2,2024-03-10,1,2024-03-12,0,Home
+11467,43,Female,Public,Kidney Disease,2024-01-25,8,2024-02-02,0,,2,Home
+11468,39,Female,Private,Kidney Disease,2024-06-27,1,2024-06-28,0,,1,Home
+11469,83,Female,Private,Heart Failure,2024-05-20,3,2024-05-23,1,2024-06-04,2,Home
+11470,55,Female,Public,Diabetes,2024-08-18,2,2024-08-20,0,,2,Skilled Nursing
+11471,63,Female,Private,COPD,2024-10-26,5,2024-10-31,0,,3,Home
+11472,32,Male,Private,Hypertension,2024-06-11,4,2024-06-15,0,,0,Skilled Nursing
+11473,61,Male,Public,Heart Failure,2024-11-06,13,2024-11-19,1,2024-12-10,0,Home
+11474,66,Male,Private,COPD,2024-05-09,7,2024-05-16,0,,4,Home
+11475,78,Female,Private,COPD,2024-09-02,5,2024-09-07,1,2024-09-21,5,Skilled Nursing
+11476,84,Female,Public,Hypertension,2024-10-23,8,2024-10-31,1,2024-11-16,2,Home
+11477,23,Female,Private,COPD,2024-06-20,4,2024-06-24,0,,2,Skilled Nursing
+11478,26,Male,Public,Diabetes,2024-03-04,12,2024-03-16,0,,1,Home
+11479,23,Female,Public,Diabetes,2024-01-31,6,2024-02-06,0,,0,Home
+11480,49,Female,Private,Diabetes,2024-02-16,4,2024-02-20,0,,1,Skilled Nursing
+11481,58,Female,Public,COPD,2024-05-09,2,2024-05-11,1,2024-05-22,3,Home
+11482,25,Male,Public,Diabetes,2024-12-17,1,2024-12-18,1,2025-01-07,4,Skilled Nursing
+11483,89,Female,Private,Hypertension,2024-11-28,14,2024-12-12,0,,1,Skilled Nursing
+11484,67,Male,Public,COPD,2024-04-19,14,2024-05-03,0,,0,Home
+11485,79,Female,Private,Kidney Disease,2024-03-09,1,2024-03-10,0,,3,Home
+11486,79,Male,Public,COPD,2024-02-27,8,2024-03-06,0,,2,Home
+11487,24,Male,Private,Hypertension,2024-04-15,14,2024-04-29,0,,3,Home
+11488,21,Male,Public,Kidney Disease,2024-10-26,4,2024-10-30,0,,5,Rehab
+11489,23,Female,Private,COPD,2024-11-25,5,2024-11-30,0,,1,Home
+11490,75,Female,Public,Diabetes,2024-09-12,11,2024-09-23,0,,0,Home
+11491,39,Male,Private,Heart Failure,2024-11-07,8,2024-11-15,0,,1,Rehab
+11492,43,Male,Private,Heart Failure,2024-06-19,12,2024-07-01,1,2024-07-10,2,Home
+11493,20,Female,Public,Diabetes,2024-06-10,7,2024-06-17,1,2024-06-27,2,Rehab
+11494,58,Female,Public,Heart Failure,2024-10-12,13,2024-10-25,0,,0,Home
+11495,77,Male,Public,Heart Failure,2024-03-11,8,2024-03-19,0,,5,Skilled Nursing
+11496,31,Female,Public,Diabetes,2024-09-11,13,2024-09-24,0,,4,Home
+11497,29,Female,Public,Diabetes,2024-02-24,8,2024-03-03,0,,3,Home
+11498,29,Female,Public,COPD,2024-11-18,6,2024-11-24,0,,3,Home
+11499,30,Female,Private,COPD,2024-01-03,10,2024-01-13,0,,2,Home
+11500,42,Male,Public,Diabetes,2024-01-26,2,2024-01-28,0,,1,Skilled Nursing
