@@ -1,4 +1,4 @@
-# 🏥 Hospital Readmissions & Utilization Analytics
+# Hospital Readmissions & Utilization Analytics
 
 ## Background and Overview
 In a simulated LeonDab Hospitals scenario, leadership sought to better understand the drivers of 30-day patient readmissions and prolonged hospital stays in order to improve patient outcomes and operational efficiency. Leadership was particularly concerned about increasing bed occupancy pressures and inconsistent discharge outcomes across patient groups.
@@ -34,7 +34,7 @@ Operationally, discharge disposition emerged as an important factor, as non-rout
 ---
 
 ## 📷 Dashboard Preview
-![Overview Dashboard](images/overview.png)
+![](images/kpi.png)
 
 ---
 
