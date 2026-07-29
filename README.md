@@ -16,13 +16,9 @@ The solution combines patient demographics, diagnoses, discharge information, co
 
 ![](images/dashboard_overview.jpg)
 
-### Patient Risk Analysis
-
-![](images/dashboard_patient_risk.jpg)
-
-### Operational Performance
-
-![](images/dashboard_operations.jpg)
+### Additional Dashboard Pages
+Patient Risk Analysis [here](images/dashboard_patient_risk.jpg)
+Operational Performance [here](images/dashboard_operations.jpg)
 
 ---
 
