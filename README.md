@@ -14,15 +14,15 @@ The solution combines patient demographics, diagnoses, discharge information, co
 
 ### Executive Overview
 
-![](images/dashboard_overview.png)
+![](images/dashboard_overview.jpg)
 
 ### Patient Risk Analysis
 
-![](images/dashboard_patient_risk.png)
+![](images/dashboard_patient_risk.jpg)
 
 ### Operational Performance
 
-![](images/dashboard_operations.png)
+![](images/dashboard_operations.jpg)
 
 ---
 
