@@ -1,69 +1,168 @@
 # Hospital Readmissions & Utilization Analytics
 
-## Background and Overview
+## Background & Overview
 
-Hospitals face persistent challenges managing patient readmissions and prolonged hospital stays, both of which increase operational costs and strain bed capacity. This project analyzes 1,500 inpatient encounters to identify clinical and demographic drivers of 30-day readmissions and extended length of stay (LOS). The analysis focuses on operational efficiency and patient outcome monitoring by examining discharge patterns, diagnoses, comorbidity burden, insurance coverage, and demographic characteristics. 
+Hospital readmissions remain one of the most important indicators of healthcare quality, patient outcomes, and operational efficiency. High readmission rates increase treatment costs, reduce bed availability, and often indicate opportunities to improve discharge planning and post-acute care.
 
-The resulting Power BI dashboard was designed as a single executive reporting page to provide hospital leadership with a consolidated view of hospitalization severity, patient flow trends, and readmission risk indicators.
+This project presents an interactive Hospital Readmissions & Utilization Analytics Dashboard developed in SQL and Power BI to help healthcare administrators monitor patient outcomes, identify high-risk populations, and evaluate operational performance.
 
-![](images/dashboard.png)
+The solution combines patient demographics, diagnoses, discharge information, comorbidity scores, and hospital utilization metrics into a three-page executive dashboard that supports evidence-based decision-making across patient care and hospital operations.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+
+![](images/dashboard_overview.png)
+
+### Patient Risk Analysis
+
+![](images/dashboard_patient_risk.png)
+
+### Operational Performance
+
+![](images/dashboard_operations.png)
 
 ---
 
 ## Data Structure Overview
 
-The dataset contains 1,500 hospital encounter records, with each row representing a unique inpatient admission. Core fields include demographic attributes (age group and gender), clinical variables (primary diagnosis and comorbidity score), operational attributes (insurance type and discharge disposition), and hospitalization metrics such as admission month and length of stay.
+The dashboard was developed using a hospital admissions dataset containing patient-level information across clinical and operational dimensions.
 
-Derived columns were created to classify hospitalization duration into short stay (<3 days), medium stay (3–6 days), and long stay (≥7 days). A dedicated date dimension supported monthly trend analysis, while calculated measures were implemented to compute KPIs including readmission rate, LOS statistics, and patient distribution metrics. Relationships were structured to enable cross-filtering across demographics, diagnoses, and operational outcomes.
+The dataset includes information such as:
 
-![](images/relationship.png)
+- Patient demographics
+- Admission and discharge dates
+- Readmission status
+- Diagnosis categories
+- Comorbidity scores
+- Length of stay
+- Discharge destination
+- Monthly hospital activity
+
+The data model was designed to support flexible analysis across multiple healthcare perspectives while maintaining efficient filtering and reporting.
 
 ---
 
 ## Technical Stack
 
-- Power BI  
-- DAX  
-- SQL Server (data storage and preparation)
+### Tools
+
+- SQL
+- Power BI Desktop
+- Power Query
+- DAX
+
+### Power BI Development Techniques
+
+- Star Schema Data Modeling
+- Time Intelligence using Date Tables
+- `USERELATIONSHIP()` for activating multiple date relationships within measures
+- Interactive Slicers
+- KPI Cards
+- Custom Executive Insight Panels
+- Drill-down Visualizations
+- Conditional Formatting
 
 ---
 
 ## Executive Summary
 
-The analysis reviewed 1,500 inpatient encounters, identifying 314 readmissions, which represents an overall readmission rate of approximately 21%. Hospitalization duration was relatively extended, with an average LOS of 7.45 days and a median LOS of 7 days, indicating that many patients required prolonged care.
+The dashboard reveals that hospital utilization remains relatively stable, with a 20.9% readmission rate across the reporting period. While patient volume continues to increase, prolonged hospital stays remain a significant operational concern, particularly among patients diagnosed with chronic conditions such as Heart Failure and Hypertension.
 
-Long-stay patients accounted for 868 encounters (57.87%), significantly outweighing short-stay cases, which represented only 327 patients (21.8%). Diagnosis-level analysis revealed elevated readmission rates among cardiovascular and chronic disease categories, while gender differences remained minimal across most outcome measures. Monthly patient trends showed fluctuating admission volumes, and operational factors such as discharge disposition demonstrated strong associations with readmission outcomes.
+The analysis highlights opportunities to improve discharge planning, reduce extended admissions, and strengthen post-acute care pathways. Readmission rates vary across discharge destinations and diagnosis groups, suggesting that targeted interventions could improve both patient outcomes and hospital efficiency.
 
-![](images/kpi.png)
+Operational metrics further indicate that home discharge remains the dominant discharge pathway, while extended length of stay continues to consume a substantial proportion of hospital resources.
 
 ---
 
 ## Insights Deep Dive
 
-Length-of-stay distribution revealed a heavy concentration of prolonged hospitalizations, with 57.87% of patients classified as long-stay, compared to 21.8% short-stay encounters. Patients aged 45-59 and below demonstrated higher LOS averages, typically 1.4–1.8 days longer than older age groups; patients aged 75+ exhibited higher average comorbidity scores, reinforcing the link between clinical complexity and extended hospital utilization.
+### 1. Readmission Rate Remains Clinically Significant
 
-![](images/los&comorbidity_by_age_group.png)
+The overall readmission rate stands at 20.9%, representing approximately one in every five patients returning for additional care.
 
-Readmission patterns were relatively balanced across gender, with differences typically remaining below 2 percentage points, indicating that gender alone was not a primary driver of hospital returns. Diagnosis-level variation was more pronounced, with chronic cardiovascular and metabolic conditions exceeding the dataset average readmission rate of 21%, highlighting potential targets for care management interventions.
+Although patient admissions continue to grow, reducing preventable readmissions presents a major opportunity for improving quality of care while lowering healthcare costs.
 
-![](images/readmission_by_gender.png)
+### 2. Long Hospital Stays Drive Resource Utilization
 
-![](images/readmission_by_diagnosis.png)
+Long-stay patients account for 868 admissions, considerably exceeding the number of short-stay patients.
 
-Insurance-level analysis showed that long-stay patients were distributed across payer types with only moderate variation between public and private insurance while the uninsured represented only 9.1%, suggesting that hospitalization duration was driven more strongly by clinical severity than by coverage type. Monthly patient trends remained unstable but within approximately ±10% of average monthly admissions, indicating consistent service demand without significant seasonal fluctuations.
+The operational dashboard further shows that 40.9% of patients remain hospitalized for more than eleven days, indicating substantial bed occupancy and increased demand on hospital resources.
 
-![](images/long_stay_by_insurance.png)
+### 3. Chronic Diseases Account for Most Readmissions
 
-![](images/patients_by_month.png)
+Heart Failure records the highest readmission rate (23.2%), followed closely by Hypertension (22.3%) and Diabetes (21.2%).
 
-Discharge disposition emerged as one of the strongest operational indicators of readmission risk. It showed that routine home discharges accounted for the highest number of readmissions (220 cases), followed by rehabilitation facilities (50), skilled nursing facilities (36), and discharges against medical advice (7), indicating that absolute readmission volume was concentrated among patients returning home rather than exclusively with post-acute care settings.
+These findings reinforce the importance of chronic disease management programs aimed at reducing avoidable hospital returns.
 
-![](images/readmission_by_discharge.png)
+### 4. Comorbidity Increases Readmission Risk
+
+Patients with a comorbidity score of 2 recorded the highest number of readmissions.
+
+Higher comorbidity burden appears strongly associated with increased readmission frequency, suggesting that risk-based care management could improve outcomes.
+
+### 5. Home Discharge Represents the Largest Patient Group
+
+Approximately 69.9% of patients were discharged home, making it the most common discharge destination.
+
+Monitoring post-discharge outcomes for this population may help reduce subsequent readmissions through improved follow-up care.
+
+### 6. Post-Acute Care Accounts for More Than One Quarter of Discharges
+
+27.4% of patients transitioned into post-acute care facilities following discharge.
+
+This highlights the important role that rehabilitation and transitional care services play in supporting recovery after hospitalization.
+
+### 7. Length of Stay Varies Across Diagnosis Groups
+
+Heart Failure patients recorded the highest average length of stay (7.9 days), while COPD, Hypertension, and Kidney Disease averaged approximately 7.3 days.
+
+Longer admissions among chronic disease patients suggest opportunities to improve care coordination and discharge planning.
+
+### 8. Monthly Activity Indicates Stable Operational Demand
+
+Hospital visits and patient discharges remained relatively consistent throughout the year, indicating stable operational demand.
+
+However, sustained long lengths of stay may still constrain bed availability despite relatively balanced admission and discharge volumes.
 
 ---
 
 ## Recommendations
 
-Hospitals should prioritize targeted discharge planning and follow-up programs for high-risk diagnoses associated with elevated readmission rates, particularly chronic cardiovascular and metabolic conditions such as heart failure, hypertension and diabetes. Early risk stratification protocols should be implemented for patients projected to exceed seven days of hospitalization, as long-stay patients represent over 57.87% of total encounters and significantly influence bed utilization.
+### Strengthen Readmission Prevention Programs
 
-Transitional care coordination should be strengthened for non-routine discharge types, where readmission risk is measurably higher. Monthly operational monitoring should remain embedded within executive dashboards to maintain visibility into patient flow trend, while ongoing tracking of comorbidity burden and LOS trends can help identify emerging clinical risk clusters before they translate into readmissions.
+Develop targeted interventions for high-risk patients with chronic conditions such as Heart Failure, Hypertension, and Diabetes through improved discharge education and follow-up care.
+
+### Improve Care Coordination
+
+Enhance collaboration between inpatient teams, rehabilitation services, and primary care providers to reduce preventable readmissions.
+
+### Prioritize High-Risk Patients
+
+Use comorbidity scores and diagnosis history to identify patients requiring enhanced monitoring after discharge.
+
+### Reduce Length of Stay
+
+Review clinical workflows and discharge planning processes to safely reduce prolonged hospital admissions while maintaining quality of care.
+
+### Expand Post-Discharge Monitoring
+
+Implement structured follow-up programs for patients discharged home to improve medication adherence, recovery, and early identification of complications.
+
+### Optimize Hospital Resource Allocation
+
+Monitor utilization trends to improve bed management, staffing decisions, and operational planning during periods of increased demand.
+
+---
+
+## Key Takeaways
+
+- Overall readmission rate reached 20.9%.
+- Approximately 40.9% of patients remained hospitalized for more than 11 days.
+- Heart Failure recorded the highest readmission rate among diagnosis groups.
+- Patients with a comorbidity score of 2 experienced the greatest readmission frequency.
+- Home discharge represented the majority of discharge outcomes.
+- Hospital activity remained operationally stable throughout the reporting period.
+- Improving discharge planning and chronic disease management offers the greatest opportunity to reduce readmissions and improve hospital efficiency.
